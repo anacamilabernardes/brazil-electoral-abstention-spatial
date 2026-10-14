@@ -3,8 +3,10 @@
 ## Phase 0 — Repository foundation
 English documentation, package scaffold, tests and data contract. No downloaded data committed.
 
-## Phase 1 — TSE/IBGE harmonization
-Build source manifests and ETL pipelines, validate turnout grain and coding of municipalities, reconcile totals and define geography vintage.
+## Phase 1 — TSE/IBGE harmonization (ETL scaffold implemented; official ingestion pending)
+Implemented: explicit official archive URL manifest and ZIP downloader; TSE president-only municipality/zone turnout normalization; validated TSE-to-IBGE code joins; 2025 IBGE polygon ingestion; municipal panel, GeoPackage, provenance and coverage reports; synthetic tests and CI configuration.
+
+Outstanding: execute against the full official archives, inspect/adjust real schemas, independently reconcile national/state totals, audit historical crosswalk/geography vintages, and freeze October 2026 source snapshots.
 
 ## Phase 2 — Spatial exploration
 Produce mapping data, Moran's I/LISA, sensitivity analyses for spatial weights, residual checks and descriptive reporting.

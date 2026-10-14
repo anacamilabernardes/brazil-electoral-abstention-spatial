@@ -11,11 +11,17 @@
 | Weather | https://portal.inmet.gov.br/ | Election-day context |
 | Polling place address and section allocation | TSE and regional electoral courts (TREs) | Establishment mapping; availability varies |
 
+## Implemented TSE/IBGE ETL
+
+The versioned municipality × election × round pipeline is described in [Municipal spatial ETL](etl-pipeline.md). It ingests the TSE `detalhe_votacao_munzona` series, the TSE↔IBGE municipality-code crosswalk, and IBGE 2025 municipal geometries, records SHA-256 provenance, filters the presidential office, validates domestic zone turnout counts, and publishes checked municipality aggregates and a GeoPackage. The 2026 build explicitly enforces an information cutoff of 14 October 2026. These outputs **have not yet been generated from the full official files**.
+
+Section-level and establishment-level ETL, official total reconciliation and socioeconomic feature acquisition remain separate development milestones.
+
 ## ETL rules
 1. Keep raw downloads unmodified outside version control; record download URL, retrieval timestamp, vintage, SHA-256 and licensing conditions.
 2. Inspect each dataset dictionary; never assume election result files identify eligible voters at every output grain.
 3. Harmonize municipal TSE-to-IBGE codes explicitly, maintaining a reviewed crosswalk for nontrivial cases.
-4. Deduplicate by true turnout unit (election × round × municipality × zone × section), rejecting contradictory duplicates.
+4. Deduplicate at the **source reporting grain**: the implemented detailed municipality/zone export uses election × round × municipality × zone × selected office (president). Section-level files, when added later, require their own finer section key.
 5. Verify `eligible > 0` and `0 <= absent <= eligible`; reconcile sum of absent and turnout to published official totals at matched reporting grain.
 6. Preserve columns for covariate reference year, publication/availability date, denominator definitions and imputations.
 7. Track section reallocation, changed establishment addresses and geography boundary vintages.
