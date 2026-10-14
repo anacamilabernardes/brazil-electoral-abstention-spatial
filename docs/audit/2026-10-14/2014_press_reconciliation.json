@@ -1,0 +1,87 @@
+{
+  "status": "incomplete_reference_coverage",
+  "comparisons": [
+    {
+      "year": "2014",
+      "round": "1",
+      "scope": "including_ZZ",
+      "eligible": "",
+      "turnout": "115122883",
+      "absent": "27698475",
+      "published_date": "2014-10-06",
+      "source_url": "https://www.tse.jus.br/comunicacao/noticias/2014/Outubro/tse-divulga-dados-gerais-sobre-primeiro-turno-das-eleicoes-2014",
+      "member": "",
+      "pages": "",
+      "source_kind": "html",
+      "locator": "National turnout and abstention paragraph",
+      "observed": {
+        "turnout": 115122883,
+        "absent": 27698475
+      },
+      "difference": {
+        "turnout": 0,
+        "absent": 0
+      },
+      "checked_metrics": [
+        "turnout",
+        "absent"
+      ],
+      "unchecked_metrics": [
+        "eligible"
+      ],
+      "status": "matched_partial"
+    },
+    {
+      "year": "2014",
+      "round": "2",
+      "scope": "including_ZZ",
+      "eligible": "142822046",
+      "turnout": "112683879",
+      "absent": "",
+      "published_date": "2014-10-28",
+      "source_url": "https://www.tse.jus.br/comunicacao/noticias/2014/Outubro/presidente-do-tse-proclama-resultado-provisorio-das-eleicoes-para-presidente-da-republica-no-2o-turno",
+      "member": "",
+      "pages": "",
+      "source_kind": "html",
+      "locator": "Paragraph beginning Dos 142.822.046 eleitores",
+      "observed": {
+        "eligible": 142822046,
+        "turnout": 112683879
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0
+      },
+      "checked_metrics": [
+        "eligible",
+        "turnout"
+      ],
+      "unchecked_metrics": [
+        "absent"
+      ],
+      "status": "matched_partial"
+    }
+  ],
+  "unreferenced_year_rounds": [
+    {
+      "year": 2018,
+      "round": 1
+    },
+    {
+      "year": 2018,
+      "round": 2
+    },
+    {
+      "year": 2022,
+      "round": 1
+    },
+    {
+      "year": 2022,
+      "round": 2
+    },
+    {
+      "year": 2026,
+      "round": 1
+    }
+  ]
+}

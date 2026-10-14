@@ -56,3 +56,47 @@ def test_receipt_does_not_attribute_custom_input_to_official_url(tmp_path):
     path.write_text("changed bytes")
     with pytest.raises(ValueError, match="differs from its download receipt"):
         input_receipt(path)
+
+
+def test_partial_html_reference_does_not_invent_missing_counts(tmp_path):
+    path = reference(tmp_path, eligible="", source_kind="html", member="", pages="",
+                     locator="National turnout paragraph")
+    result = reconcile(report(), path)
+    row = result["comparisons"][0]
+    assert row["status"] == "matched_partial"
+    assert row["observed"] == dict(turnout=87, absent=23)
+    assert row["unchecked_metrics"] == ["eligible"]
+    assert result["status"] == "incomplete_reference_coverage"
+
+
+@pytest.mark.parametrize("overrides, message", [
+    ({"eligible": "", "turnout": "", "absent": ""}, "at least one count"),
+    ({"source_kind": "html", "locator": ""}, "locator"),
+    ({"source_kind": "unknown"}, "source kind"),
+])
+def test_reference_rejects_missing_values_or_provenance(tmp_path, overrides, message):
+    with pytest.raises(ValueError, match=message):
+        reconcile(report(), reference(tmp_path, **overrides))
+
+
+def test_partial_reference_still_reports_mismatch(tmp_path):
+    result = reconcile(report(), reference(tmp_path, eligible="", absent=24))
+    assert result["comparisons"][0]["status"] == "mismatch"
+    assert result["comparisons"][0]["difference"] == dict(turnout=0, absent=-1)
+
+
+def test_catalog_year_does_not_invent_publication_day(tmp_path):
+    assert reconcile(report(), reference(tmp_path, published_date="2016"))["comparisons"][0]["status"] == "matched"
+    with pytest.raises(ValueError, match="Publication year"):
+        reconcile(report(), reference(tmp_path, published_date="2026"))
+
+
+def test_cli_does_not_pass_partial_reference_as_full_match(tmp_path, capsys):
+    from abstention_spatial.pipeline import main
+    path = tmp_path / "report.json"
+    path.write_text(json.dumps(report()), encoding="utf-8")
+    refs = reference(tmp_path, eligible="")
+    output = tmp_path / "comparison.json"
+    assert main(["reconcile", "--report", str(path), "--references", str(refs),
+                 "--output", str(output)]) == 1
+    assert json.loads(output.read_text(encoding="utf-8"))["status"] == "incomplete_reference_coverage"

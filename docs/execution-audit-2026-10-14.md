@@ -1,5 +1,7 @@
 # Official-data execution audit â€” 14 October 2026
 
+Follow-up: the [section-level discrepancy investigation](discrepancy-investigation.md) locates the residuals, explains the 2018 category difference and adds official references for both 2014 rounds.
+
 ## Result and scope
 
 The official national TSE archives for 2014, 2018, 2022 (both rounds) and 2026 (round one only) were downloaded, inspected and processed. The normalized dataset contains **38,991 municipality/year/round rows**, **43,274 domestic zone/transit records**, and **5,571 distinct IBGE municipality codes**. All observed municipalities join to the official 2025 IBGE geometry without missing polygons. The GeoPackage contains unique municipal geometries and a spatial municipal panel, both EPSG:4674. These are data-engineering outputs, not fitted forecasts or performance metrics.
@@ -10,7 +12,7 @@ The output is an **audit dataset with unresolved source discrepancies**. Strict 
 
 Windows, Python 3.12.0, Git 2.53.0. Dependencies were installed into an isolated virtual environment with `pip install -e ".[dev]"`. The observed dependency resolution is pinned in `requirements-audit-windows-py312.txt`; it is a Windows audit snapshot, not a cross-platform lock.
 
-All 20 original tests passed after configuring temporary files inside the writable workspace. The initial default Windows sandbox temp directory caused a permission error (19 passed, one failed), resolved by changing TEMP/TMP. The extended suite has 32 passing tests. Regression coverage includes national ZIP selection, transit grain, uninstalled electors, residual opt-in, cutoff leakage, historical round coverage, spatial layer counts, source-receipt attribution and integrity, reference-universe matching, mismatch retention and locked GeoPackage publication.
+All 20 original tests passed after configuring temporary files inside the writable workspace. The initial default Windows sandbox temp directory caused a permission error (19 passed, one failed), resolved by changing TEMP/TMP. The initial extended suite had 32 passing tests; the follow-up suite has 39. Regression coverage includes national ZIP selection, transit grain, uninstalled electors, residual opt-in, cutoff leakage, historical round coverage, spatial layer counts, source-receipt attribution and integrity, reference-universe matching, mismatch retention and locked GeoPackage publication.
 
 A real BrasÃ­lia smoke test retained exactly the official first-round 2026 DF rows: 19 zone records, one municipal row and one matched polygon. `scripts/audit_sources.py` reproduces the schema inspection, source hashes, subset provenance and smoke build offline. The script preserves source counts and writes a parent archive receipt plus member/filter details for its derived subset.
 
@@ -54,7 +56,7 @@ Source `QT_ABSTENCOES` is retained unchanged. The normalized identity is:
 
 `uninstalled` is official `QT_ELEITORES_SECOES_NAO_INSTALADAS`; `unaccounted` is an explicitly flagged positive residual, not an imputed abstention. Negative residuals always fail. The absence rate is `absent / eligible`; TSE reporting may instead use eligible registrations in installed/totalized sections. Counts must be reconciled before comparing rounded rates.
 
-- **2014:** municipality 31950 / zone 34 and municipality 31054 / zone 27 in SE each have two unexplained electors in each round (eight across four source rows). Strict mode fails; audit mode preserves and lists the exact keys. The cause has not been established.
+- **2014:** municipality 31950 / zone 34 and municipality 31054 / zone 27 in SE each have two unexplained electors in each round (eight across four source rows). Strict mode fails; audit mode preserves and lists the exact keys. The follow-up locates these as section 392 (Aracaju) and section 255 (Nossa Senhora do Socorro), each with two eligible registrations and no turnout or abstention in both rounds. Eight is a sum of elector-round residuals, not evidence of eight distinct people; the operational cause remains unestablished.
 - **2022:** municipality 02550 / zone 68 in AM has 84 uninstalled-section electors in each round. Treating eligible minus turnout as abstention would falsely add 84 in each round. Overseas uninstalled electors are excluded from domestic geography and remain part of the national-report explanation.
 - **2026:** domestic counts balance. Overseas records contain 423 uninstalled electors. TSE's results landing page warns that result/TTE files include 39 duplicate registrations: 158,745,502 reported registrations versus 158,745,463 effective electors. No municipality-level allocation was available, so no arbitrary 39-person correction is applied.
 
@@ -78,15 +80,17 @@ The pipeline now hard-limits the cutoff to 14 October 2026, excludes all 2026 ro
 
 | Reference | Eligible difference | Turnout difference | Absent difference | Result |
 | --- | ---: | ---: | ---: | --- |
+| 2014 round 1, TSE publication 2016, p. 56 | 0 | 0 | 0 | Matched |
+| 2014 round 2, TSE publication 2016, p. 56 | 0 | 0 | 0 | Matched |
 | 2018 round 1, report 22 Jan 2019 | 0 | 0 | 0 | Matched |
 | 2018 round 2, report 27 Feb 2019 | 0 | 0 | +669 | Mismatch retained |
 | 2022 round 1, report 4 Oct 2022 | 0 | 0 | 0 | Matched |
 | 2022 round 2, report 31 Oct 2022 | 0 | 0 | 0 | Matched |
 | 2026 round 1, report 7 Oct 2026 | 0 | 0 | 0 | Matched |
 
-Differences are observed CSV sums minus PDF report values. The 2018 round-two report explicitly records 669 electors in uncounted sections and excludes them from abstention; the current archive's absent total is higher by exactly 669. This is consistent with a source-vintage/reporting-category difference, but a municipal correction is not established. Keep the mismatch visible and investigate source revisions before publication. Four matched comparisons do not establish that every municipality or historical boundary is correct.
+Differences are observed CSV sums minus published reference values. The 2018 second-round PDF excludes 334 electors in an ES uncounted section and 335 in a PR uncounted section. The current CSV records the same counts as absentees in Vila Valerio zone 37 section 87 and Santo Antonio do Sudoeste zone 83 section 15. Section-to-zone sums agree exactly for all 2018 keys. This explains the 669-person numerical discrepancy without changing the preserved source counts or proving the sections' operational cause. Six matched comparisons do not establish that every municipality or historical boundary is correct.
 
-The attempted conventional national 2014 report ZIP URL returned HTTP 404. Both 2014 rounds remain externally unreconciled. State-level independent PDF reconciliation is also outstanding; state coverage alone does not establish complete municipal coverage. Model fitting, socioeconomic covariates, polling-place geocoding, historical geography sensitivity and prospective performance evaluation were outside this ETL execution; no metrics are claimed.
+The conventional national 2014 report ZIP URL returned HTTP 404; the follow-up retrieved the official 2016 TSE election publication through its catalog download endpoint. Page 56 provides all three national counts for both 2014 rounds, all matching the archives including ZZ. Both rounds now have verified references. The two domestic sections retain unclassified residuals. Independent state-level PDF reconciliation beyond the targeted ES/PR investigation remains outstanding; state coverage alone does not establish complete municipal coverage. No forecasting performance metrics are claimed.
 
 Primary catalog evidence: [TSE 2026 results and duplicate-registration warning](https://dadosabertos.tse.jus.br/dataset/resultados-2026), [official municipal-code correspondence](https://dadosabertos.tse.jus.br/dataset/codigos-oficiais-de-uf-e-municipios-segundo-o-tse-e-o-ibge), [IBGE 2025 archive listing](https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/).
 

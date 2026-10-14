@@ -2,7 +2,7 @@
 
 **Research-stage, open and reproducible Python project** for understanding the geography of electoral abstention in Brazil and developing uncertainty-aware forecasts for the **2026 second round (25 October 2026)**.
 
-> Status (14 October 2026): municipal TSE–IBGE ETL code and synthetic-data tests are available. Official national archives have **not** been processed or reconciled, and no validated forecasts or geocoded polling-place database exist.
+> Status (14 October 2026): official national archives have been processed into 38,991 municipal panel rows and a GeoPackage. Six of seven national reference comparisons match; the 2018 round-two abstention difference is traced to 334 + 335 uncounted-section electors. The 2014 residuals are traced to two sections and remain unclassified. See the [discrepancy investigation](docs/discrepancy-investigation.md) and [execution audit](docs/execution-audit-2026-10-14.md). No validated forecasts or geocoded polling-place database exist.
 
 ## Research questions
 1. Is municipal abstention spatially autocorrelated?

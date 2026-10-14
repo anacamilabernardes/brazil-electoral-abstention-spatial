@@ -232,7 +232,7 @@ def main(argv: list[str] | None = None) -> int:
         result = reconcile(json.loads(args.report.read_text(encoding="utf-8")), args.references)
         save_json(args.output, result)
         print(json.dumps(result, indent=2))
-        return 1 if result["status"] == "mismatch" else 0
+        return 0 if result["status"] == "matched_available_references" else 1
     elif args.command == "download":
         for name in args.names:
             rec = download_official(name, args.raw_dir)
