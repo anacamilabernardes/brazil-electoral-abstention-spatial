@@ -1,0 +1,463 @@
+{
+  "status": "complete_with_unexplained_source_discrepancies_not_officially_reconciled",
+  "cutoff_date": "2026-10-14",
+  "years": [
+    2014,
+    2018,
+    2022,
+    2026
+  ],
+  "reference_geometry_year": 2025,
+  "source_files": {
+    "crosswalk": {
+      "filename": "municipio_tse_ibge.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+      "size_bytes": 139031,
+      "observed_at_utc": "2026-10-14T06:50:31.499656+00:00",
+      "download_receipt": {
+        "name": "tse-ibge-crosswalk",
+        "cached": false,
+        "filename": "municipio_tse_ibge.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+        "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+        "size_bytes": 139031,
+        "observed_at_utc": "2026-10-14T06:34:21.656519+00:00"
+      }
+    },
+    "ibge_boundaries": {
+      "filename": "BR_Municipios_2025.zip",
+      "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+      "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+      "size_bytes": 237062431,
+      "observed_at_utc": "2026-10-14T06:50:32.462722+00:00",
+      "download_receipt": {
+        "name": "ibge-municipalities-2025",
+        "cached": false,
+        "filename": "BR_Municipios_2025.zip",
+        "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+        "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+        "size_bytes": 237062431,
+        "observed_at_utc": "2026-10-14T06:34:39.831229+00:00"
+      }
+    },
+    "tse_munzona_2014": {
+      "filename": "detalhe_votacao_munzona_2014.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+      "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+      "size_bytes": 3937094,
+      "observed_at_utc": "2026-10-14T06:50:32.481301+00:00",
+      "download_receipt": {
+        "name": "tse-munzona-2014",
+        "cached": false,
+        "filename": "detalhe_votacao_munzona_2014.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+        "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+        "size_bytes": 3937094,
+        "observed_at_utc": "2026-10-14T06:34:20.138840+00:00"
+      }
+    },
+    "tse_munzona_2018": {
+      "filename": "detalhe_votacao_munzona_2018.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+      "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+      "size_bytes": 4269741,
+      "observed_at_utc": "2026-10-14T06:50:32.501393+00:00",
+      "download_receipt": {
+        "name": "tse-munzona-2018",
+        "cached": false,
+        "filename": "detalhe_votacao_munzona_2018.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+        "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+        "size_bytes": 4269741,
+        "observed_at_utc": "2026-10-14T06:34:20.650977+00:00"
+      }
+    },
+    "tse_munzona_2022": {
+      "filename": "detalhe_votacao_munzona_2022.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip",
+      "sha256": "4f4fb43493c65ebf743b74430f1590343a2bdeca16fc7ab9b80827e8c51eab92",
+      "size_bytes": 4422339,
+      "observed_at_utc": "2026-10-14T06:50:32.522077+00:00",
+      "download_receipt": {
+        "name": "tse-munzona-2022",
+        "cached": false,
+        "filename": "detalhe_votacao_munzona_2022.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip",
+        "sha256": "4f4fb43493c65ebf743b74430f1590343a2bdeca16fc7ab9b80827e8c51eab92",
+        "size_bytes": 4422339,
+        "observed_at_utc": "2026-10-14T06:34:21.158153+00:00"
+      }
+    },
+    "tse_munzona_2026": {
+      "filename": "detalhe_votacao_munzona_2026.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+      "sha256": "0d5a723707c446de17e4fbcffefa408ecb6c8b9642aaf1dc627975258bb3c5b7",
+      "size_bytes": 2502589,
+      "observed_at_utc": "2026-10-14T06:50:32.532545+00:00",
+      "download_receipt": {
+        "name": "tse-munzona-2026",
+        "cached": false,
+        "filename": "detalhe_votacao_munzona_2026.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+        "sha256": "0d5a723707c446de17e4fbcffefa408ecb6c8b9642aaf1dc627975258bb3c5b7",
+        "size_bytes": 2502589,
+        "observed_at_utc": "2026-10-14T06:34:21.523024+00:00"
+      }
+    }
+  },
+  "municipality_coverage_by_year_round": {
+    "2014-1": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2014-2": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2018-1": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2018-2": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2022-1": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2022-2": {
+      "observed": 5570,
+      "crosswalk_codes_without_observations": [
+        "5101837"
+      ]
+    },
+    "2026-1": {
+      "observed": 5571,
+      "crosswalk_codes_without_observations": []
+    }
+  },
+  "row_counts": {
+    "zones": 43274,
+    "municipal_panel": 38991,
+    "unique_municipalities": 5571
+  },
+  "source_audit": {
+    "2014": {
+      "year": 2014,
+      "source": "data\\raw\\detalhe_votacao_munzona_2014.zip",
+      "out_of_scope_zz_rows": 336,
+      "other_cargo_rows": 0,
+      "future_round_rows": 0,
+      "source_rows": 13096,
+      "domestic_president_rows": 12760,
+      "member": "detalhe_votacao_munzona_2014_BR.csv",
+      "count_discrepancies": [
+        {
+          "round": 1,
+          "uf": "SE",
+          "tse_code": "31950",
+          "electoral_zone": "0034",
+          "transit": "N",
+          "eligible": 93643,
+          "turnout": 81988,
+          "absent": 11653,
+          "uninstalled": 0,
+          "unaccounted": 2
+        },
+        {
+          "round": 2,
+          "uf": "SE",
+          "tse_code": "31950",
+          "electoral_zone": "0034",
+          "transit": "N",
+          "eligible": 93643,
+          "turnout": 80934,
+          "absent": 12707,
+          "uninstalled": 0,
+          "unaccounted": 2
+        },
+        {
+          "round": 1,
+          "uf": "SE",
+          "tse_code": "31054",
+          "electoral_zone": "0027",
+          "transit": "N",
+          "eligible": 116672,
+          "turnout": 95680,
+          "absent": 20990,
+          "uninstalled": 0,
+          "unaccounted": 2
+        },
+        {
+          "round": 2,
+          "uf": "SE",
+          "tse_code": "31054",
+          "electoral_zone": "0027",
+          "transit": "N",
+          "eligible": 116680,
+          "turnout": 96994,
+          "absent": 19684,
+          "uninstalled": 0,
+          "unaccounted": 2
+        }
+      ],
+      "zz_totals_by_round": {
+        "1": {
+          "eligible": 353504,
+          "turnout": 141501,
+          "absent": 211319
+        },
+        "2": {
+          "eligible": 353536,
+          "turnout": 141873,
+          "absent": 210979
+        }
+      },
+      "uninstalled_electors": 0,
+      "unaccounted_electors": 8,
+      "transit_rows": 230,
+      "rounds_ingested": [
+        1,
+        2
+      ],
+      "domestic_eligible_by_round": {
+        "1": 142468542,
+        "2": 142468510
+      }
+    },
+    "2018": {
+      "year": 2018,
+      "source": "data\\raw\\detalhe_votacao_munzona_2018.zip",
+      "out_of_scope_zz_rows": 342,
+      "other_cargo_rows": 0,
+      "future_round_rows": 0,
+      "source_rows": 12546,
+      "domestic_president_rows": 12204,
+      "member": "detalhe_votacao_munzona_2018_BR.csv",
+      "count_discrepancies": [],
+      "zz_totals_by_round": {
+        "1": {
+          "eligible": 500340,
+          "turnout": 202766,
+          "absent": 297104
+        },
+        "2": {
+          "eligible": 500347,
+          "turnout": 201166,
+          "absent": 298711
+        }
+      },
+      "uninstalled_electors": 0,
+      "unaccounted_electors": 0,
+      "transit_rows": 0,
+      "rounds_ingested": [
+        1,
+        2
+      ],
+      "domestic_eligible_by_round": {
+        "1": 146805955,
+        "2": 146805947
+      }
+    },
+    "2022": {
+      "year": 2022,
+      "source": "data\\raw\\detalhe_votacao_munzona_2022.zip",
+      "out_of_scope_zz_rows": 362,
+      "other_cargo_rows": 0,
+      "future_round_rows": 0,
+      "source_rows": 12566,
+      "domestic_president_rows": 12204,
+      "member": "detalhe_votacao_munzona_2022_BR.csv",
+      "count_discrepancies": [],
+      "zz_totals_by_round": {
+        "1": {
+          "eligible": 695355,
+          "turnout": 304032,
+          "absent": 390750
+        },
+        "2": {
+          "eligible": 695578,
+          "turnout": 310148,
+          "absent": 384857
+        }
+      },
+      "uninstalled_electors": 168,
+      "unaccounted_electors": 0,
+      "transit_rows": 0,
+      "rounds_ingested": [
+        1,
+        2
+      ],
+      "domestic_eligible_by_round": {
+        "1": 155758656,
+        "2": 155758433
+      }
+    },
+    "2026": {
+      "year": 2026,
+      "source": "data\\raw\\detalhe_votacao_munzona_2026.zip",
+      "out_of_scope_zz_rows": 186,
+      "other_cargo_rows": 0,
+      "future_round_rows": 0,
+      "source_rows": 6292,
+      "domestic_president_rows": 6106,
+      "member": "detalhe_votacao_munzona_2026_BR.csv",
+      "count_discrepancies": [],
+      "zz_totals_by_round": {
+        "1": {
+          "eligible": 916534,
+          "turnout": 341766,
+          "absent": 574345
+        }
+      },
+      "uninstalled_electors": 0,
+      "unaccounted_electors": 0,
+      "transit_rows": 0,
+      "rounds_ingested": [
+        1
+      ],
+      "domestic_eligible_by_round": {
+        "1": 157828968
+      }
+    }
+  },
+  "geography_audit": {
+    "unique_panel_municipalities": 5571,
+    "geometry_features_in_source": 5573,
+    "matched_municipalities": 5571,
+    "missing_geometry_codes": [],
+    "unused_geometry_codes": [
+      "4300001",
+      "4300002"
+    ]
+  },
+  "state_coverage": {
+    "2014-1": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2014-2": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2018-1": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2018-2": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2022-1": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2022-2": {
+      "uf_count": 27,
+      "missing_ufs": []
+    },
+    "2026-1": {
+      "uf_count": 27,
+      "missing_ufs": []
+    }
+  },
+  "allow_partial_coverage": false,
+  "allow_discrepancies": true,
+  "national_domestic_by_year_round": [
+    {
+      "year": 2014,
+      "round": 1,
+      "eligible": 142468542,
+      "turnout": 114981382,
+      "absent": 27487156,
+      "uninstalled": 0,
+      "unaccounted": 4,
+      "abstention_rate": 0.19293491471261073
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "eligible": 142468510,
+      "turnout": 112542006,
+      "absent": 29926500,
+      "uninstalled": 0,
+      "unaccounted": 4,
+      "abstention_rate": 0.21005694521547252
+    },
+    {
+      "year": 2018,
+      "round": 1,
+      "eligible": 146805955,
+      "turnout": 117161888,
+      "absent": 29644067,
+      "uninstalled": 0,
+      "unaccounted": 0,
+      "abstention_rate": 0.20192687006463736
+    },
+    {
+      "year": 2018,
+      "round": 2,
+      "eligible": 146805947,
+      "turnout": 115732285,
+      "absent": 31073662,
+      "uninstalled": 0,
+      "unaccounted": 0,
+      "abstention_rate": 0.21166487213218957
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "eligible": 155758656,
+      "turnout": 123378340,
+      "absent": 32380232,
+      "uninstalled": 84,
+      "unaccounted": 0,
+      "abstention_rate": 0.20788720724452064
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "eligible": 155758433,
+      "turnout": 123942648,
+      "absent": 31815701,
+      "uninstalled": 84,
+      "unaccounted": 0,
+      "abstention_rate": 0.20426310400798653
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "eligible": 157828968,
+      "turnout": 124934069,
+      "absent": 32894899,
+      "uninstalled": 0,
+      "unaccounted": 0,
+      "abstention_rate": 0.20842117525598977
+    }
+  ],
+  "warnings": [
+    "Totals are domestic only; foreign voting district ZZ is excluded from the IBGE spatial panel.",
+    "A cutoff-date crosswalk snapshot and 2025 municipal boundaries were applied to historical years; audit changes in municipal geography.",
+    "TSE reports 39 duplicated eligible registrations in its 2026 results/TTE files; do not allocate or subtract them by municipality without documented evidence.",
+    "Published official totals have not been checked externally by this offline build; reconcile before interpreting or publishing forecasts.",
+    "2026 second-round observations are always excluded; cutoff cannot exceed 14 October 2026.",
+    "Official absent counts are preserved. Uninstalled and unexplained electors are separate fields; review nonzero unaccounted before modeling."
+  ],
+  "output_counts": {
+    "municipal_panel_rows": 38991,
+    "geometry_rows": 5571
+  },
+  "metadata_note": "Crosswalk-vintage warning corrected after execution to reflect the observed 2026-10-11 crosswalk generation date; computed data and validations unchanged."
+}

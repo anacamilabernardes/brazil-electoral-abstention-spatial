@@ -1,0 +1,132 @@
+{
+  "status": "complete_from_supplied_archives_not_officially_reconciled",
+  "cutoff_date": "2026-10-14",
+  "years": [
+    2026
+  ],
+  "row_counts": {
+    "zones": 19,
+    "municipal_panel": 1,
+    "unique_municipalities": 1
+  },
+  "source_files": {
+    "crosswalk": {
+      "filename": "municipio_tse_ibge.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+      "size_bytes": 139031,
+      "observed_at_utc": "2026-10-14T06:47:49.834120+00:00",
+      "download_receipt": {
+        "name": "tse-ibge-crosswalk",
+        "cached": false,
+        "filename": "municipio_tse_ibge.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+        "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+        "size_bytes": 139031,
+        "observed_at_utc": "2026-10-14T06:34:21.656519+00:00"
+      }
+    },
+    "ibge_boundaries": {
+      "filename": "BR_Municipios_2025.zip",
+      "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+      "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+      "size_bytes": 237062431,
+      "observed_at_utc": "2026-10-14T06:47:51.049704+00:00",
+      "download_receipt": {
+        "name": "ibge-municipalities-2025",
+        "cached": false,
+        "filename": "BR_Municipios_2025.zip",
+        "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+        "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+        "size_bytes": 237062431,
+        "observed_at_utc": "2026-10-14T06:34:39.831229+00:00"
+      }
+    },
+    "tse_munzona_2026": {
+      "filename": "detalhe_votacao_munzona_2026.zip",
+      "source_url": null,
+      "sha256": "deeddcf18cb3afc29ed0f45b306c9998c94672400246d005767ad27ab5cf7a43",
+      "size_bytes": 5846,
+      "observed_at_utc": "2026-10-14T06:47:51.054466+00:00"
+    }
+  },
+  "source_audit": {
+    "2026": {
+      "year": 2026,
+      "source": "data\\processed\\audit\\smoke_raw\\detalhe_votacao_munzona_2026.zip",
+      "out_of_scope_zz_rows": 0,
+      "other_cargo_rows": 0,
+      "future_round_rows": 0,
+      "source_rows": 19,
+      "domestic_president_rows": 19,
+      "member": "detalhe_votacao_munzona_2026_BR.csv",
+      "count_discrepancies": [],
+      "zz_totals_by_round": {},
+      "uninstalled_electors": 0,
+      "unaccounted_electors": 0,
+      "transit_rows": 0,
+      "rounds_ingested": [
+        1
+      ],
+      "domestic_eligible_by_round": {
+        "1": 2258320
+      }
+    }
+  },
+  "state_coverage": {
+    "2026-1": {
+      "uf_count": 1,
+      "missing_ufs": [
+        "AC",
+        "AL",
+        "AM",
+        "AP",
+        "BA",
+        "CE",
+        "ES",
+        "GO",
+        "MA",
+        "MG",
+        "MS",
+        "MT",
+        "PA",
+        "PB",
+        "PE",
+        "PI",
+        "PR",
+        "RJ",
+        "RN",
+        "RO",
+        "RR",
+        "RS",
+        "SC",
+        "SE",
+        "SP",
+        "TO"
+      ]
+    }
+  },
+  "national_domestic_by_year_round": [
+    {
+      "year": 2026,
+      "round": 1,
+      "eligible": 2258320,
+      "turnout": 1831396,
+      "absent": 426924,
+      "uninstalled": 0,
+      "unaccounted": 0,
+      "abstention_rate": 0.18904495377094477
+    }
+  ],
+  "output_counts": {
+    "municipal_panel_rows": 1,
+    "geometry_rows": 1
+  },
+  "geography_audit": {
+    "unique_panel_municipalities": 1,
+    "geometry_features_in_source": 5573,
+    "matched_municipalities": 1,
+    "missing_geometry_codes": [],
+    "unused_geometry_count": 5572
+  }
+}

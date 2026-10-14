@@ -1,0 +1,15 @@
+{
+  "parent": {
+    "filename": "detalhe_votacao_munzona_2026.zip",
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+    "sha256": "0d5a723707c446de17e4fbcffefa408ecb6c8b9642aaf1dc627975258bb3c5b7",
+    "size_bytes": 2502589,
+    "observed_at_utc": "2026-10-14T06:47:49.819699+00:00"
+  },
+  "member": "detalhe_votacao_munzona_2026_BR.csv",
+  "filter": {
+    "SG_UF": "DF",
+    "NR_TURNO": "1"
+  },
+  "rows": 19
+}

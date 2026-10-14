@@ -1,0 +1,25 @@
+{
+  "reports": [
+    {
+      "filename": "Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "sha256": "13637dc43aa55a7fecb3db28b9f4736cd01edd1e73e8245726afae5771224cbd",
+      "size_bytes": 990267,
+      "observed_at_utc": "2026-10-14T06:54:38.392835+00:00"
+    },
+    {
+      "filename": "Relatorio_Resultado_Totalizacao_2022_BR.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2022_BR.zip",
+      "sha256": "4d3ada9761cb9ae960bf02b2d3503aa6e45350f62a05789c553705afd0254079",
+      "size_bytes": 3944883,
+      "observed_at_utc": "2026-10-14T06:54:38.418375+00:00"
+    },
+    {
+      "filename": "Relatorio_Resultado_Totalizacao_2026_BR.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2026_BR.zip",
+      "sha256": "4deffc50d539907c2d88184bf3dff9a6b16a0c612316c44383d915b8df444a0d",
+      "size_bytes": 287009,
+      "observed_at_utc": "2026-10-14T06:54:38.424042+00:00"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "status": "verified",
+  "panel_rows": 38991,
+  "unique_municipalities": 5571,
+  "gpkg_layers": [
+    [
+      "municipalities_2025",
+      4674
+    ],
+    [
+      "municipal_panel",
+      4674
+    ]
+  ],
+  "artifacts": {
+    "domestic_totals.csv": {
+      "filename": "domestic_totals.csv",
+      "source_url": null,
+      "sha256": "91b80c92436b228510099eac0eadafa39ebdcb2d28fff6d2bd7c572e24f3d433",
+      "size_bytes": 505,
+      "observed_at_utc": "2026-10-14T06:56:32.313218+00:00"
+    },
+    "municipality_crosswalk.csv": {
+      "filename": "municipality_crosswalk.csv",
+      "source_url": null,
+      "sha256": "799867b6e3916a2bf066a5512dda6200dae6b3a96240bf7ab6f2247b4c6db49b",
+      "size_bytes": 100309,
+      "observed_at_utc": "2026-10-14T06:56:32.314597+00:00"
+    },
+    "municipal_panel.csv": {
+      "filename": "municipal_panel.csv",
+      "source_url": null,
+      "sha256": "b749fef7bf745d129deab43ecbd19350e9758505c64834d8e2df7b9abaa8bf88",
+      "size_bytes": 2155769,
+      "observed_at_utc": "2026-10-14T06:56:32.329365+00:00"
+    },
+    "municipal_zone_turnout.csv": {
+      "filename": "municipal_zone_turnout.csv",
+      "source_url": null,
+      "sha256": "d6a27dd186a67d79d0caafb9fc48a30553e191d839ce9b03a77ad9385f54ec45",
+      "size_bytes": 2245352,
+      "observed_at_utc": "2026-10-14T06:56:32.342797+00:00"
+    },
+    "municipalities_2025.gpkg": {
+      "filename": "municipalities_2025.gpkg",
+      "source_url": null,
+      "sha256": "f67c81f43c7ac4ad08a614a7df5e772a5e5d4e7bc34c05d53bc2a13918a314f1",
+      "size_bytes": 2598264832,
+      "observed_at_utc": "2026-10-14T06:56:43.487371+00:00"
+    }
+  }
+}

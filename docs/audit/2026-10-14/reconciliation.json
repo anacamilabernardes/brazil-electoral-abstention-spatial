@@ -1,0 +1,130 @@
+{
+  "status": "mismatch",
+  "comparisons": [
+    {
+      "year": "2018",
+      "round": "1",
+      "scope": "including_ZZ",
+      "eligible": "147306295",
+      "turnout": "117364654",
+      "absent": "29941171",
+      "published_date": "2019-01-22",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "member": "295_BR_BRASIL_2018_T1_PRESIDENTE.pdf",
+      "pages": "2",
+      "observed": {
+        "eligible": 147306295,
+        "turnout": 117364654,
+        "absent": 29941171
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 0
+      },
+      "status": "matched"
+    },
+    {
+      "year": "2018",
+      "round": "2",
+      "scope": "including_ZZ",
+      "eligible": "147306294",
+      "turnout": "115933451",
+      "absent": "31371704",
+      "published_date": "2019-02-27",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "member": "296_BR_BRASIL_2018_T2_PRESIDENTE.pdf",
+      "pages": "2",
+      "observed": {
+        "eligible": 147306294,
+        "turnout": 115933451,
+        "absent": 31372373
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 669
+      },
+      "status": "mismatch"
+    },
+    {
+      "year": "2022",
+      "round": "1",
+      "scope": "including_ZZ",
+      "eligible": "156454011",
+      "turnout": "123682372",
+      "absent": "32770982",
+      "published_date": "2022-10-04",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2022_BR.zip",
+      "member": "544_BR_BRASIL_2022_T1_PRESIDENTE.pdf",
+      "pages": "2-3",
+      "observed": {
+        "eligible": 156454011,
+        "turnout": 123682372,
+        "absent": 32770982
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 0
+      },
+      "status": "matched"
+    },
+    {
+      "year": "2022",
+      "round": "2",
+      "scope": "including_ZZ",
+      "eligible": "156454011",
+      "turnout": "124252796",
+      "absent": "32200558",
+      "published_date": "2022-10-31",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2022_BR.zip",
+      "member": "545_BR_BRASIL_2022_T2_PRESIDENTE.pdf",
+      "pages": "2-3",
+      "observed": {
+        "eligible": 156454011,
+        "turnout": 124252796,
+        "absent": 32200558
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 0
+      },
+      "status": "matched"
+    },
+    {
+      "year": "2026",
+      "round": "1",
+      "scope": "including_ZZ",
+      "eligible": "158745502",
+      "turnout": "125275835",
+      "absent": "33469244",
+      "published_date": "2026-10-07",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2026_BR.zip",
+      "member": "6257_BR_BRASIL_2026_T1_PRESIDENTE.pdf",
+      "pages": "2-3",
+      "observed": {
+        "eligible": 158745502,
+        "turnout": 125275835,
+        "absent": 33469244
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 0
+      },
+      "status": "matched"
+    }
+  ],
+  "unreferenced_year_rounds": [
+    {
+      "year": 2014,
+      "round": 1
+    },
+    {
+      "year": 2014,
+      "round": 2
+    }
+  ]
+}

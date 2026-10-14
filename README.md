@@ -56,10 +56,10 @@ python -m abstention_spatial.pipeline sources
 python -m abstention_spatial.pipeline download --names tse-munzona-2014 tse-munzona-2018 tse-munzona-2022 tse-munzona-2026 tse-ibge-crosswalk ibge-municipalities-2025
 
 # Offline build; as-of cutoff excludes any future 2026 round-two rows:
-python -m abstention_spatial.pipeline build --years 2014 2018 2022 2026 --cutoff 2026-10-14
+python -m abstention_spatial.pipeline build --years 2014 2018 2022 2026 --cutoff 2026-10-14 --allow-discrepancies
 ```
 
-**Important:** schema inspection and official TSE turnout reconciliation remain required. Downloaded inputs and generated outputs are gitignored. The first ETL release uses municipality/zone aggregates, *not* section-level results or socioeconomic covariates. Read the [full ETL operating guide](docs/etl-pipeline.md) before running it.
+**Important:** `--allow-discrepancies` explicitly preserves the documented 2014 residuals in `unaccounted`; strict builds reject those rows. Reconciliation limitations remain. Downloaded inputs and generated outputs are gitignored. The first ETL release uses municipality/zone aggregates, *not* section-level results or socioeconomic covariates. Read the [full ETL operating guide](docs/etl-pipeline.md) before running it.
 
 ## Scope and integrity
 Aggregate electoral participation only. Do not infer how abstainers would have voted or individual voter preferences from aggregate results. Avoid publication of potentially disclosive small-cell information. Keep data provenance and cutoff dates alongside each estimate.

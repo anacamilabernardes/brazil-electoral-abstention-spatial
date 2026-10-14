@@ -1,7 +1,7 @@
 # Normalized data dictionary (v0.2)
 
 ## `municipal_panel.csv`
-One row per **IBGE municipality × election year × round**. The current ETL produces only `municipality_code`, `year`, `round`, `eligible`, `turnout`, `absent` and computed `abstention_rate`; optional socioeconomic fields below are **not** produced by this release:
+One row per **IBGE municipality × election year × round**. The current ETL produces only `municipality_code`, `year`, `round`, `eligible`, `turnout`, `absent` `uninstalled`, `unaccounted` and computed `abstention_rate`; optional socioeconomic fields below are **not** produced by this release:
 | Field | Type | Definition |
 | --- | --- | --- |
 | municipality_code | string | Seven-digit IBGE municipal code (preserve leading zeros) |
@@ -9,7 +9,9 @@ One row per **IBGE municipality × election year × round**. The current ETL pro
 | round | integer | 1 or 2 |
 | eligible | integer | Eligible electors in reporting unit |
 | turnout | integer | Electors recorded as having attended |
-| absent | integer | Eligible minus turnout |
+| absent | integer | Official QT_ABSTENCOES; never imputed as eligible minus turnout |
+| uninstalled | integer | Electors in uninstalled sections; not counted as abstentions |
+| unaccounted | integer | Positive unexplained source accounting residual; zero in strict mode |
 | abstention_rate | float | absent / eligible, in [0,1] |
 | income_pc | float, nullable | Per-capita income; unit, reference year and source metadata required |
 | elderly_share | float, nullable | Defined age-threshold share, 0–1 |
@@ -20,7 +22,7 @@ Composite unique key: `(municipality_code, year, round)`. A missing second round
 
 ## `municipal_zone_turnout.csv` (implemented)
 
-`year`, `round`, `uf`, `tse_code` (five-digit string), `electoral_zone` (zero-padded string), `municipality_code` (IBGE seven-digit string), `eligible`, `turnout`, `absent`. This table reflects TSE municipality/zone reporting grain, **not** a section-level register. International district `ZZ` is excluded and recorded in QA.
+`year`, `round`, `uf`, `tse_code` (five-digit string), `electoral_zone` (zero-padded string), `transit` (N/S), `municipality_code` (IBGE seven-digit string), `eligible`, `turnout`, `absent`, `uninstalled`, `unaccounted`. This table reflects TSE municipality/zone reporting grain, **not** a section-level register. International district `ZZ` is excluded and recorded in QA.
 
 ## `municipality_crosswalk.csv`, `domestic_totals.csv`, `etl_qa_report.json` and `municipalities_2025.gpkg` (implemented)
 
@@ -46,3 +48,5 @@ Municipality code, indicator ID, value, unit, reference year, release date and s
 - Joined municipality coverage and missing geometries reported (do not silently drop).
 - National/state reconciliation to the relevant published TSE reporting tables.
 - Every predictive feature has an availability date not after the forecast cutoff.
+
+Accounting identity: `eligible = turnout + absent + uninstalled + unaccounted`. `abstention_rate` is the official absent count divided by all eligible registrations, not the TSE installed-section reporting rate when uninstalled electors exist. Nonzero residuals require sensitivity analysis before modeling.
