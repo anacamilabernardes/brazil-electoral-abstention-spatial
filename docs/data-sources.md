@@ -13,16 +13,16 @@
 
 ## Implemented TSE/IBGE ETL
 
-The versioned municipality × election × round pipeline is described in [Municipal spatial ETL](etl-pipeline.md). It ingests the TSE `detalhe_votacao_munzona` series, the TSE↔IBGE municipality-code crosswalk, and IBGE 2025 municipal geometries, records SHA-256 provenance, filters the presidential office, validates domestic zone turnout counts, and publishes checked municipality aggregates and a GeoPackage. The 2026 build explicitly enforces an information cutoff of 14 October 2026. These outputs **have not yet been generated from the full official files**.
+The versioned municipality × election × round pipeline is described in [Municipal spatial ETL](etl-pipeline.md). It ingests the TSE `detalhe_votacao_munzona` series, the TSE↔IBGE municipality-code crosswalk, and IBGE 2025 municipal geometries, records SHA-256 provenance, filters the presidential office, validates domestic zone turnout counts, and publishes checked municipality aggregates and a GeoPackage. The 2026 build explicitly enforces an information cutoff of 14 October 2026. The full official files were processed on 14 October 2026; see [execution audit](execution-audit-2026-10-14.md) for hashes, schemas, discrepancies and reconciliation.
 
-Section-level and establishment-level ETL, official total reconciliation and socioeconomic feature acquisition remain separate development milestones.
+The [section turnout ETL](section-etl.md) now normalizes all four years for the 26 states and DF. Establishment linkage, complete independent reconciliation and socioeconomic feature acquisition remain separate development milestones.
 
 ## ETL rules
 1. Keep raw downloads unmodified outside version control; record download URL, retrieval timestamp, vintage, SHA-256 and licensing conditions.
 2. Inspect each dataset dictionary; never assume election result files identify eligible voters at every output grain.
 3. Harmonize municipal TSE-to-IBGE codes explicitly, maintaining a reviewed crosswalk for nontrivial cases.
-4. Deduplicate at the **source reporting grain**: the implemented detailed municipality/zone export uses election × round × municipality × zone × selected office (president). Section-level files, when added later, require their own finer section key.
-5. Verify `eligible > 0` and `0 <= absent <= eligible`; reconcile sum of absent and turnout to published official totals at matched reporting grain.
+4. Deduplicate at the **source reporting grain**: the implemented detailed municipality/zone export uses election × round × municipality × zone × selected office (president). The section ETL uses election year, round, UF, TSE municipality, zone and section as its finer key.
+5. Verify `eligible > 0` and `0 <= absent <= eligible`; preserve source abstentions and account separately for uninstalled electors and explicitly flagged unexplained residuals. Reconcile against published official totals at matched reporting grain.
 6. Preserve columns for covariate reference year, publication/availability date, denominator definitions and imputations.
 7. Track section reallocation, changed establishment addresses and geography boundary vintages.
 8. Forecast features must have been known by their simulation cutoff.

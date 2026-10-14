@@ -1,0 +1,1139 @@
+{
+  "cutoff_date": "2026-10-14",
+  "years": {
+    "2014": {
+      "section_archive": {
+        "filename": "detalhe_votacao_secao_2014.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2014.zip",
+        "sha256": "a2af950c80d63a4af7e51522c327a1ce3bb0e360f1861f0080fba680f28442ec",
+        "size_bytes": 73594893,
+        "observed_at_utc": "2026-10-14T08:09:27.339060+00:00",
+        "download_receipt": {
+          "filename": "detalhe_votacao_secao_2014.zip",
+          "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2014.zip",
+          "sha256": "a2af950c80d63a4af7e51522c327a1ce3bb0e360f1861f0080fba680f28442ec",
+          "size_bytes": 73594893,
+          "observed_at_utc": "2026-10-14T07:57:34.447302+00:00"
+        }
+      },
+      "zone_archive": {
+        "filename": "detalhe_votacao_munzona_2014.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+        "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+        "size_bytes": 3937094,
+        "observed_at_utc": "2026-10-14T08:09:27.347752+00:00",
+        "download_receipt": {
+          "name": "tse-munzona-2014",
+          "cached": false,
+          "filename": "detalhe_votacao_munzona_2014.zip",
+          "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+          "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+          "size_bytes": 3937094,
+          "observed_at_utc": "2026-10-14T06:34:20.138840+00:00"
+        }
+      },
+      "section_member": "detalhe_votacao_secao_2014_BR.csv",
+      "zone_member": "detalhe_votacao_munzona_2014_BR.csv",
+      "presidential_section_rows": 857788,
+      "compared_zone_keys": 12866,
+      "zone_keys_with_differences": 0,
+      "selected_section_evidence": [
+        {
+          "DT_GERACAO": "28/07/2021",
+          "HH_GERACAO": "11:54:29",
+          "ANO_ELEICAO": "2014",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "1",
+          "CD_ELEICAO": "143",
+          "DS_ELEICAO": "Eleições Gerais 2014",
+          "DT_ELEICAO": "05/10/2014",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "SE",
+          "SG_UE": "SE",
+          "NM_UE": "SERGIPE",
+          "CD_MUNICIPIO": "31054",
+          "NM_MUNICIPIO": "ARACAJU",
+          "NR_ZONA": "0027",
+          "NR_SECAO": "392",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 2,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 0,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1732",
+          "residual": 2
+        },
+        {
+          "DT_GERACAO": "28/07/2021",
+          "HH_GERACAO": "11:54:29",
+          "ANO_ELEICAO": "2014",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "1",
+          "CD_ELEICAO": "143",
+          "DS_ELEICAO": "Eleições Gerais 2014",
+          "DT_ELEICAO": "05/10/2014",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "SE",
+          "SG_UE": "SE",
+          "NM_UE": "SERGIPE",
+          "CD_MUNICIPIO": "31950",
+          "NM_MUNICIPIO": "NOSSA SENHORA DO SOCORRO",
+          "NR_ZONA": "0034",
+          "NR_SECAO": "255",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 2,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 0,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1562",
+          "residual": 2
+        },
+        {
+          "DT_GERACAO": "28/07/2021",
+          "HH_GERACAO": "11:54:29",
+          "ANO_ELEICAO": "2014",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "144",
+          "DS_ELEICAO": "Eleições Gerais 2014",
+          "DT_ELEICAO": "26/10/2014",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "SE",
+          "SG_UE": "SE",
+          "NM_UE": "SERGIPE",
+          "CD_MUNICIPIO": "31054",
+          "NM_MUNICIPIO": "ARACAJU",
+          "NR_ZONA": "0027",
+          "NR_SECAO": "392",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 2,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 0,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1732",
+          "residual": 2
+        },
+        {
+          "DT_GERACAO": "28/07/2021",
+          "HH_GERACAO": "11:54:29",
+          "ANO_ELEICAO": "2014",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "144",
+          "DS_ELEICAO": "Eleições Gerais 2014",
+          "DT_ELEICAO": "26/10/2014",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "SE",
+          "SG_UE": "SE",
+          "NM_UE": "SERGIPE",
+          "CD_MUNICIPIO": "31950",
+          "NM_MUNICIPIO": "NOSSA SENHORA DO SOCORRO",
+          "NR_ZONA": "0034",
+          "NR_SECAO": "255",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 2,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 0,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1562",
+          "residual": 2
+        }
+      ],
+      "state_totals": [
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AC",
+          "QT_APTOS": 506805,
+          "QT_COMPARECIMENTO": 419018,
+          "QT_ABSTENCOES": 87787
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AL",
+          "QT_APTOS": 1995862,
+          "QT_COMPARECIMENTO": 1613089,
+          "QT_ABSTENCOES": 382773
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AM",
+          "QT_APTOS": 2227037,
+          "QT_COMPARECIMENTO": 1793093,
+          "QT_ABSTENCOES": 433944
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AP",
+          "QT_APTOS": 455680,
+          "QT_COMPARECIMENTO": 408117,
+          "QT_ABSTENCOES": 47563
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "BA",
+          "QT_APTOS": 10181809,
+          "QT_COMPARECIMENTO": 7820921,
+          "QT_ABSTENCOES": 2360888
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "CE",
+          "QT_APTOS": 6271183,
+          "QT_COMPARECIMENTO": 5009561,
+          "QT_ABSTENCOES": 1261622
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "DF",
+          "QT_APTOS": 1901499,
+          "QT_COMPARECIMENTO": 1679730,
+          "QT_ABSTENCOES": 221769
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "ES",
+          "QT_APTOS": 2654025,
+          "QT_COMPARECIMENTO": 2152378,
+          "QT_ABSTENCOES": 501647
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "GO",
+          "QT_APTOS": 4331714,
+          "QT_COMPARECIMENTO": 3516060,
+          "QT_ABSTENCOES": 815654
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MA",
+          "QT_APTOS": 4496584,
+          "QT_COMPARECIMENTO": 3434308,
+          "QT_ABSTENCOES": 1062276
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MG",
+          "QT_APTOS": 15243511,
+          "QT_COMPARECIMENTO": 12192320,
+          "QT_ABSTENCOES": 3051191
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MS",
+          "QT_APTOS": 1818436,
+          "QT_COMPARECIMENTO": 1445135,
+          "QT_ABSTENCOES": 373301
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MT",
+          "QT_APTOS": 2189276,
+          "QT_COMPARECIMENTO": 1687726,
+          "QT_ABSTENCOES": 501550
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PA",
+          "QT_APTOS": 5187201,
+          "QT_COMPARECIMENTO": 4092972,
+          "QT_ABSTENCOES": 1094229
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PB",
+          "QT_APTOS": 2835939,
+          "QT_COMPARECIMENTO": 2335534,
+          "QT_ABSTENCOES": 500405
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PE",
+          "QT_APTOS": 6356093,
+          "QT_COMPARECIMENTO": 5306324,
+          "QT_ABSTENCOES": 1049769
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PI",
+          "QT_APTOS": 2345040,
+          "QT_COMPARECIMENTO": 1901917,
+          "QT_ABSTENCOES": 443123
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PR",
+          "QT_APTOS": 7867462,
+          "QT_COMPARECIMENTO": 6541878,
+          "QT_ABSTENCOES": 1325584
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RJ",
+          "QT_APTOS": 12141933,
+          "QT_COMPARECIMENTO": 9700381,
+          "QT_ABSTENCOES": 2441552
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RN",
+          "QT_APTOS": 2327581,
+          "QT_COMPARECIMENTO": 1935965,
+          "QT_ABSTENCOES": 391616
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RO",
+          "QT_APTOS": 1127152,
+          "QT_COMPARECIMENTO": 886486,
+          "QT_ABSTENCOES": 240666
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RR",
+          "QT_APTOS": 299900,
+          "QT_COMPARECIMENTO": 262624,
+          "QT_ABSTENCOES": 37276
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RS",
+          "QT_APTOS": 8390220,
+          "QT_COMPARECIMENTO": 6981308,
+          "QT_ABSTENCOES": 1408912
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SC",
+          "QT_APTOS": 4860775,
+          "QT_COMPARECIMENTO": 4063339,
+          "QT_ABSTENCOES": 797436
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SE",
+          "QT_APTOS": 1454447,
+          "QT_COMPARECIMENTO": 1240644,
+          "QT_ABSTENCOES": 213799
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SP",
+          "QT_APTOS": 32004396,
+          "QT_COMPARECIMENTO": 25758945,
+          "QT_ABSTENCOES": 6245451
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "TO",
+          "QT_APTOS": 996982,
+          "QT_COMPARECIMENTO": 801609,
+          "QT_ABSTENCOES": 195373
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "ZZ",
+          "QT_APTOS": 353504,
+          "QT_COMPARECIMENTO": 141501,
+          "QT_ABSTENCOES": 211319
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AC",
+          "QT_APTOS": 506789,
+          "QT_COMPARECIMENTO": 394373,
+          "QT_ABSTENCOES": 112416
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AL",
+          "QT_APTOS": 1995776,
+          "QT_COMPARECIMENTO": 1604072,
+          "QT_ABSTENCOES": 391704
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AM",
+          "QT_APTOS": 2227001,
+          "QT_COMPARECIMENTO": 1723417,
+          "QT_ABSTENCOES": 503584
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AP",
+          "QT_APTOS": 455655,
+          "QT_COMPARECIMENTO": 389305,
+          "QT_ABSTENCOES": 66350
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "BA",
+          "QT_APTOS": 10181876,
+          "QT_COMPARECIMENTO": 7656063,
+          "QT_ABSTENCOES": 2525813
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "CE",
+          "QT_APTOS": 6271136,
+          "QT_COMPARECIMENTO": 4907255,
+          "QT_ABSTENCOES": 1363881
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "DF",
+          "QT_APTOS": 1901543,
+          "QT_COMPARECIMENTO": 1661130,
+          "QT_ABSTENCOES": 240413
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "ES",
+          "QT_APTOS": 2654061,
+          "QT_COMPARECIMENTO": 2077712,
+          "QT_ABSTENCOES": 576349
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "GO",
+          "QT_APTOS": 4331678,
+          "QT_COMPARECIMENTO": 3398899,
+          "QT_ABSTENCOES": 932779
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MA",
+          "QT_APTOS": 4496565,
+          "QT_COMPARECIMENTO": 3265844,
+          "QT_ABSTENCOES": 1230721
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MG",
+          "QT_APTOS": 15243592,
+          "QT_COMPARECIMENTO": 12017541,
+          "QT_ABSTENCOES": 3226051
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MS",
+          "QT_APTOS": 1818401,
+          "QT_COMPARECIMENTO": 1397883,
+          "QT_ABSTENCOES": 420518
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MT",
+          "QT_APTOS": 2189335,
+          "QT_COMPARECIMENTO": 1632636,
+          "QT_ABSTENCOES": 556699
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PA",
+          "QT_APTOS": 5187143,
+          "QT_COMPARECIMENTO": 3878932,
+          "QT_ABSTENCOES": 1308211
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PB",
+          "QT_APTOS": 2835935,
+          "QT_COMPARECIMENTO": 2325562,
+          "QT_ABSTENCOES": 510373
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PE",
+          "QT_APTOS": 6356106,
+          "QT_COMPARECIMENTO": 5226999,
+          "QT_ABSTENCOES": 1129107
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PI",
+          "QT_APTOS": 2345043,
+          "QT_COMPARECIMENTO": 1846686,
+          "QT_ABSTENCOES": 498357
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PR",
+          "QT_APTOS": 7867456,
+          "QT_COMPARECIMENTO": 6417632,
+          "QT_ABSTENCOES": 1449824
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RJ",
+          "QT_APTOS": 12142032,
+          "QT_COMPARECIMENTO": 9427045,
+          "QT_ABSTENCOES": 2714987
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RN",
+          "QT_APTOS": 2327470,
+          "QT_COMPARECIMENTO": 1916413,
+          "QT_ABSTENCOES": 411057
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RO",
+          "QT_APTOS": 1127171,
+          "QT_COMPARECIMENTO": 852738,
+          "QT_ABSTENCOES": 274433
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RR",
+          "QT_APTOS": 299886,
+          "QT_COMPARECIMENTO": 250613,
+          "QT_ABSTENCOES": 49273
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RS",
+          "QT_APTOS": 8390408,
+          "QT_COMPARECIMENTO": 6864329,
+          "QT_ABSTENCOES": 1526079
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SC",
+          "QT_APTOS": 4860832,
+          "QT_COMPARECIMENTO": 3992948,
+          "QT_ABSTENCOES": 867884
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SE",
+          "QT_APTOS": 1454428,
+          "QT_COMPARECIMENTO": 1223076,
+          "QT_ABSTENCOES": 231348
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SP",
+          "QT_APTOS": 32004234,
+          "QT_COMPARECIMENTO": 25442448,
+          "QT_ABSTENCOES": 6561786
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "TO",
+          "QT_APTOS": 996958,
+          "QT_COMPARECIMENTO": 750455,
+          "QT_ABSTENCOES": 246503
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "ZZ",
+          "QT_APTOS": 353536,
+          "QT_COMPARECIMENTO": 141873,
+          "QT_ABSTENCOES": 210979
+        }
+      ]
+    },
+    "2018": {
+      "section_archive": {
+        "filename": "detalhe_votacao_secao_2018.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+        "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+        "size_bytes": 256133172,
+        "observed_at_utc": "2026-10-14T08:09:44.347235+00:00",
+        "download_receipt": {
+          "filename": "detalhe_votacao_secao_2018.zip",
+          "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+          "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+          "size_bytes": 256133172,
+          "observed_at_utc": "2026-10-14T07:57:48.643704+00:00"
+        }
+      },
+      "zone_archive": {
+        "filename": "detalhe_votacao_munzona_2018.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+        "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+        "size_bytes": 4269741,
+        "observed_at_utc": "2026-10-14T08:09:44.361087+00:00",
+        "download_receipt": {
+          "name": "tse-munzona-2018",
+          "cached": false,
+          "filename": "detalhe_votacao_munzona_2018.zip",
+          "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+          "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+          "size_bytes": 4269741,
+          "observed_at_utc": "2026-10-14T06:34:20.650977+00:00"
+        }
+      },
+      "section_member": "detalhe_votacao_secao_2018_BR.csv",
+      "zone_member": "detalhe_votacao_munzona_2018_BR.csv",
+      "presidential_section_rows": 908980,
+      "compared_zone_keys": 12546,
+      "zone_keys_with_differences": 0,
+      "selected_section_evidence": [
+        {
+          "DT_GERACAO": "15/02/2024",
+          "HH_GERACAO": "16:19:02",
+          "ANO_ELEICAO": "2018",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "296",
+          "DS_ELEICAO": "Eleição Geral Federal 2018",
+          "DT_ELEICAO": "28/10/2018",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "ES",
+          "SG_UE": "BR",
+          "NM_UE": "BRASIL",
+          "CD_MUNICIPIO": "56227",
+          "NM_MUNICIPIO": "VILA VALÉRIO",
+          "NR_ZONA": "0037",
+          "NR_SECAO": "87",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 334,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 334,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1120",
+          "NM_LOCAL_VOTACAO": "EEEF VALÉRIO",
+          "DS_LOCAL_VOTACAO_ENDERECO": "R. ANTÔNIO BARCELLOS, 167",
+          "DT_RECEBIMENTO_BU_HOR_TSE": "28/10/2018 20:30:59",
+          "DT_PRIM_TOT_PARCIAL_HOR_TSE": "28/10/2018 20:32:52",
+          "DS_ORIGEM_VOTO": "#NULO#",
+          "ST_SECAO_INSTALADA": "#NULO#",
+          "ST_SECAO_ANULADA": "#NULO#",
+          "CD_MODELO_URNA": "-1",
+          "DS_MODELO_URNA": "#NULO#",
+          "residual": 0
+        },
+        {
+          "DT_GERACAO": "15/02/2024",
+          "HH_GERACAO": "16:19:02",
+          "ANO_ELEICAO": "2018",
+          "CD_TIPO_ELEICAO": "2",
+          "NM_TIPO_ELEICAO": "Eleição Ordinária",
+          "NR_TURNO": "2",
+          "CD_ELEICAO": "296",
+          "DS_ELEICAO": "Eleição Geral Federal 2018",
+          "DT_ELEICAO": "28/10/2018",
+          "TP_ABRANGENCIA": "F",
+          "SG_UF": "PR",
+          "SG_UE": "BR",
+          "NM_UE": "BRASIL",
+          "CD_MUNICIPIO": "78573",
+          "NM_MUNICIPIO": "SANTO ANTÔNIO DO SUDOESTE",
+          "NR_ZONA": "0083",
+          "NR_SECAO": "15",
+          "CD_CARGO": "1",
+          "DS_CARGO": "Presidente",
+          "QT_APTOS": 335,
+          "QT_COMPARECIMENTO": 0,
+          "QT_ABSTENCOES": 335,
+          "QT_VOTOS_NOMINAIS": "0",
+          "QT_VOTOS_BRANCOS": "0",
+          "QT_VOTOS_NULOS": "0",
+          "QT_VOTOS_LEGENDA": "0",
+          "QT_VOTOS_ANULADOS_APU_SEP": "0",
+          "NR_LOCAL_VOTACAO": "1031",
+          "NM_LOCAL_VOTACAO": "COLEGIO ESTADUAL INTERVENTOR MANOEL RIBAS",
+          "DS_LOCAL_VOTACAO_ENDERECO": "RUA LAURINDO FLÁVIO SCOPEL - 141",
+          "DT_RECEBIMENTO_BU_HOR_TSE": "28/10/2018 20:53:29",
+          "DT_PRIM_TOT_PARCIAL_HOR_TSE": "28/10/2018 20:57:20",
+          "DS_ORIGEM_VOTO": "#NULO#",
+          "ST_SECAO_INSTALADA": "#NULO#",
+          "ST_SECAO_ANULADA": "#NULO#",
+          "CD_MODELO_URNA": "-1",
+          "DS_MODELO_URNA": "#NULO#",
+          "residual": 0
+        }
+      ],
+      "state_totals": [
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AC",
+          "QT_APTOS": 547608,
+          "QT_COMPARECIMENTO": 443634,
+          "QT_ABSTENCOES": 103974
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AL",
+          "QT_APTOS": 2187948,
+          "QT_COMPARECIMENTO": 1693503,
+          "QT_ABSTENCOES": 494445
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AM",
+          "QT_APTOS": 2428842,
+          "QT_COMPARECIMENTO": 1958878,
+          "QT_ABSTENCOES": 469964
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "AP",
+          "QT_APTOS": 512119,
+          "QT_COMPARECIMENTO": 426620,
+          "QT_ABSTENCOES": 85499
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "BA",
+          "QT_APTOS": 10392015,
+          "QT_COMPARECIMENTO": 8236847,
+          "QT_ABSTENCOES": 2155168
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "CE",
+          "QT_APTOS": 6343897,
+          "QT_COMPARECIMENTO": 5244712,
+          "QT_ABSTENCOES": 1099185
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "DF",
+          "QT_APTOS": 2085825,
+          "QT_COMPARECIMENTO": 1695724,
+          "QT_ABSTENCOES": 390101
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "ES",
+          "QT_APTOS": 2754739,
+          "QT_COMPARECIMENTO": 2224259,
+          "QT_ABSTENCOES": 530480
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "GO",
+          "QT_APTOS": 4454402,
+          "QT_COMPARECIMENTO": 3554934,
+          "QT_ABSTENCOES": 899468
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MA",
+          "QT_APTOS": 4536954,
+          "QT_COMPARECIMENTO": 3605316,
+          "QT_ABSTENCOES": 931638
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MG",
+          "QT_APTOS": 15698955,
+          "QT_COMPARECIMENTO": 12214681,
+          "QT_ABSTENCOES": 3484274
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MS",
+          "QT_APTOS": 1877705,
+          "QT_COMPARECIMENTO": 1479308,
+          "QT_ABSTENCOES": 398397
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "MT",
+          "QT_APTOS": 2330024,
+          "QT_COMPARECIMENTO": 1757938,
+          "QT_ABSTENCOES": 572086
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PA",
+          "QT_APTOS": 5498941,
+          "QT_COMPARECIMENTO": 4401798,
+          "QT_ABSTENCOES": 1097143
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PB",
+          "QT_APTOS": 2868028,
+          "QT_COMPARECIMENTO": 2436874,
+          "QT_ABSTENCOES": 431154
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PE",
+          "QT_APTOS": 6569262,
+          "QT_COMPARECIMENTO": 5393186,
+          "QT_ABSTENCOES": 1176076
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PI",
+          "QT_APTOS": 2370421,
+          "QT_COMPARECIMENTO": 1997932,
+          "QT_ABSTENCOES": 372489
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "PR",
+          "QT_APTOS": 7972308,
+          "QT_COMPARECIMENTO": 6620465,
+          "QT_ABSTENCOES": 1351843
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RJ",
+          "QT_APTOS": 12406805,
+          "QT_COMPARECIMENTO": 9479580,
+          "QT_ABSTENCOES": 2927225
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RN",
+          "QT_APTOS": 2373957,
+          "QT_COMPARECIMENTO": 1967735,
+          "QT_ABSTENCOES": 406222
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RO",
+          "QT_APTOS": 1175617,
+          "QT_COMPARECIMENTO": 913340,
+          "QT_ABSTENCOES": 262277
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RR",
+          "QT_APTOS": 333591,
+          "QT_COMPARECIMENTO": 287150,
+          "QT_ABSTENCOES": 46441
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "RS",
+          "QT_APTOS": 8353657,
+          "QT_COMPARECIMENTO": 6838548,
+          "QT_ABSTENCOES": 1515109
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SC",
+          "QT_APTOS": 5073479,
+          "QT_COMPARECIMENTO": 4246278,
+          "QT_ABSTENCOES": 827201
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SE",
+          "QT_APTOS": 1577123,
+          "QT_COMPARECIMENTO": 1280300,
+          "QT_ABSTENCOES": 296823
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "SP",
+          "QT_APTOS": 33042545,
+          "QT_COMPARECIMENTO": 25930749,
+          "QT_ABSTENCOES": 7111796
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "TO",
+          "QT_APTOS": 1039188,
+          "QT_COMPARECIMENTO": 831599,
+          "QT_ABSTENCOES": 207589
+        },
+        {
+          "NR_TURNO": "1",
+          "SG_UF": "ZZ",
+          "QT_APTOS": 500340,
+          "QT_COMPARECIMENTO": 202766,
+          "QT_ABSTENCOES": 297104
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AC",
+          "QT_APTOS": 547590,
+          "QT_COMPARECIMENTO": 399129,
+          "QT_ABSTENCOES": 148461
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AL",
+          "QT_APTOS": 2187735,
+          "QT_COMPARECIMENTO": 1644459,
+          "QT_ABSTENCOES": 543276
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AM",
+          "QT_APTOS": 2428821,
+          "QT_COMPARECIMENTO": 1909279,
+          "QT_ABSTENCOES": 519542
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "AP",
+          "QT_APTOS": 512117,
+          "QT_COMPARECIMENTO": 394939,
+          "QT_ABSTENCOES": 117178
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "BA",
+          "QT_APTOS": 10391945,
+          "QT_COMPARECIMENTO": 8200327,
+          "QT_ABSTENCOES": 2191618
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "CE",
+          "QT_APTOS": 6343848,
+          "QT_COMPARECIMENTO": 5158343,
+          "QT_ABSTENCOES": 1185505
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "DF",
+          "QT_APTOS": 2086086,
+          "QT_COMPARECIMENTO": 1691396,
+          "QT_ABSTENCOES": 394690
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "ES",
+          "QT_APTOS": 2754749,
+          "QT_COMPARECIMENTO": 2178495,
+          "QT_ABSTENCOES": 576254
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "GO",
+          "QT_APTOS": 4454429,
+          "QT_COMPARECIMENTO": 3491824,
+          "QT_ABSTENCOES": 962605
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MA",
+          "QT_APTOS": 4536973,
+          "QT_COMPARECIMENTO": 3477517,
+          "QT_ABSTENCOES": 1059456
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MG",
+          "QT_APTOS": 15699063,
+          "QT_COMPARECIMENTO": 12067502,
+          "QT_ABSTENCOES": 3631561
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MS",
+          "QT_APTOS": 1877747,
+          "QT_COMPARECIMENTO": 1449977,
+          "QT_ABSTENCOES": 427770
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "MT",
+          "QT_APTOS": 2330011,
+          "QT_COMPARECIMENTO": 1718877,
+          "QT_ABSTENCOES": 611134
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PA",
+          "QT_APTOS": 5498812,
+          "QT_COMPARECIMENTO": 4218043,
+          "QT_ABSTENCOES": 1280769
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PB",
+          "QT_APTOS": 2868023,
+          "QT_COMPARECIMENTO": 2407269,
+          "QT_ABSTENCOES": 460754
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PE",
+          "QT_APTOS": 6569316,
+          "QT_COMPARECIMENTO": 5377444,
+          "QT_ABSTENCOES": 1191872
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PI",
+          "QT_APTOS": 2370422,
+          "QT_COMPARECIMENTO": 1946971,
+          "QT_ABSTENCOES": 423451
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "PR",
+          "QT_APTOS": 7972415,
+          "QT_COMPARECIMENTO": 6595854,
+          "QT_ABSTENCOES": 1376561
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RJ",
+          "QT_APTOS": 12406861,
+          "QT_COMPARECIMENTO": 9421512,
+          "QT_ABSTENCOES": 2985349
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RN",
+          "QT_APTOS": 2373876,
+          "QT_COMPARECIMENTO": 1943331,
+          "QT_ABSTENCOES": 430545
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RO",
+          "QT_APTOS": 1175634,
+          "QT_COMPARECIMENTO": 882221,
+          "QT_ABSTENCOES": 293413
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RR",
+          "QT_APTOS": 333576,
+          "QT_COMPARECIMENTO": 270651,
+          "QT_ABSTENCOES": 62925
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "RS",
+          "QT_APTOS": 8353814,
+          "QT_COMPARECIMENTO": 6777418,
+          "QT_ABSTENCOES": 1576396
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SC",
+          "QT_APTOS": 5073146,
+          "QT_COMPARECIMENTO": 4217534,
+          "QT_ABSTENCOES": 855612
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SE",
+          "QT_APTOS": 1577191,
+          "QT_COMPARECIMENTO": 1264754,
+          "QT_ABSTENCOES": 312437
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "SP",
+          "QT_APTOS": 33042569,
+          "QT_COMPARECIMENTO": 25846143,
+          "QT_ABSTENCOES": 7196426
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "TO",
+          "QT_APTOS": 1039178,
+          "QT_COMPARECIMENTO": 781076,
+          "QT_ABSTENCOES": 258102
+        },
+        {
+          "NR_TURNO": "2",
+          "SG_UF": "ZZ",
+          "QT_APTOS": 500347,
+          "QT_COMPARECIMENTO": 201166,
+          "QT_ABSTENCOES": 298711
+        }
+      ]
+    }
+  },
+  "2018_state_report_comparisons": [
+    {
+      "uf": "ES",
+      "report": {
+        "page": 16,
+        "eligible": 2754749,
+        "turnout": 2178495,
+        "absent": 575920,
+        "uncounted_section_electors": 334
+      },
+      "observed": {
+        "NR_TURNO": "2",
+        "SG_UF": "ES",
+        "QT_APTOS": 2754749,
+        "QT_COMPARECIMENTO": 2178495,
+        "QT_ABSTENCOES": 576254
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 334
+      }
+    },
+    {
+      "uf": "PR",
+      "report": {
+        "page": 36,
+        "eligible": 7972415,
+        "turnout": 6595854,
+        "absent": 1376226,
+        "uncounted_section_electors": 335
+      },
+      "observed": {
+        "NR_TURNO": "2",
+        "SG_UF": "PR",
+        "QT_APTOS": 7972415,
+        "QT_COMPARECIMENTO": 6595854,
+        "QT_ABSTENCOES": 1376561
+      },
+      "difference": {
+        "eligible": 0,
+        "turnout": 0,
+        "absent": 335
+      }
+    }
+  ],
+  "2018_state_report_source": {
+    "archive": {
+      "filename": "Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2018_BR.zip",
+      "sha256": "13637dc43aa55a7fecb3db28b9f4736cd01edd1e73e8245726afae5771224cbd",
+      "size_bytes": 990267,
+      "observed_at_utc": "2026-10-14T08:09:44.373623+00:00",
+      "download_receipt": {
+        "filename": "Relatorio_Resultado_Totalizacao_2018_BR.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2018_BR.zip",
+        "sha256": "13637dc43aa55a7fecb3db28b9f4736cd01edd1e73e8245726afae5771224cbd",
+        "size_bytes": 990267,
+        "observed_at_utc": "2026-10-14T06:54:38.392835+00:00"
+      }
+    },
+    "member": "296_BR_BRASIL_2018_T2_PRESIDENTE.pdf",
+    "published_date": "2019-02-27"
+  }
+}

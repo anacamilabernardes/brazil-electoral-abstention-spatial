@@ -110,3 +110,59 @@ def test_harmonize_fails_unmapped(tmp_path):
     })
     with pytest.raises(ValueError, match="Missing official IBGE mapping"):
         harmonize_zones(zones, mapping)
+
+
+def test_official_archive_selects_br_once_and_keeps_transit(tmp_path):
+    path = tmp_path / "national.zip"
+    data = munzona([[2014, 1, "SP", "71072", 1, 1, 100, 80, 20],
+                    [2014, 1, "SP", "71072", 1, 1, 10, 8, 2]])
+    lines = data.splitlines()
+    data = lines[0] + ";ST_VOTO_EM_TRANSITO\n" + lines[1] + ";N\n" + lines[2] + ";S\n"
+    with ZipFile(path, "w") as z:
+        z.writestr("detalhe_votacao_munzona_2014_BR.csv", data)
+        z.writestr("detalhe_votacao_munzona_2014_BRASIL.csv", data)
+        z.writestr("detalhe_votacao_munzona_2014_SP.csv", data)
+    zones, audit = read_munzona(path, 2014, chunksize=1)
+    assert zones["eligible"].sum() == 110
+    assert audit["transit_rows"] == 1
+    crosswalk = pd.DataFrame({"uf": ["SP"], "tse_code": ["71072"], "municipality_code": ["3550308"]})
+    _, panel = harmonize_zones(zones, crosswalk)
+    assert panel["eligible"].tolist() == [110]
+
+
+def test_uninstalled_electors_are_not_imputed_as_absent(tmp_path):
+    data = munzona([[2022, 1, "SP", "71072", 1, 1, 100, 70, 20]])
+    head, row = data.strip().splitlines()
+    path = make_zip(tmp_path / "a.zip", "a.csv", head + ";QT_ELEITORES_SECOES_NAO_INSTALADAS\n" + row + ";10\n")
+    zones, audit = read_munzona(path, 2022)
+    assert zones["absent"].tolist() == [20]
+    assert zones["uninstalled"].tolist() == [10]
+    assert audit["uninstalled_electors"] == 10
+
+
+def test_discrepancy_requires_opt_in_and_preserves_counts(tmp_path):
+    path = make_zip(tmp_path / "a.zip", "a.csv", munzona([[2014, 1, "SP", "71072", 1, 1, 100, 70, 28]]))
+    with pytest.raises(ValueError, match="Inconsistent"):
+        read_munzona(path, 2014)
+    zones, audit = read_munzona(path, 2014, allow_discrepancies=True)
+    assert zones["absent"].tolist() == [28]
+    assert audit["unaccounted_electors"] == 2
+    assert len(audit["count_discrepancies"]) == 1
+
+
+def test_direct_reader_never_ingests_2026_round_two(tmp_path):
+    path = make_zip(tmp_path / "a.zip", "a.csv", munzona([
+        [2026, 1, "SP", "71072", 1, 1, 100, 80, 20],
+        [2026, 2, "SP", "71072", 1, 1, 100, 70, 30],
+    ]))
+    zones, audit = read_munzona(path, 2026)
+    assert zones["round"].tolist() == [1]
+    assert audit["future_round_rows"] == 1
+
+
+def test_source_generation_after_cutoff_is_rejected(tmp_path):
+    data = munzona([[2026, 1, "SP", "71072", 1, 1, 100, 80, 20]])
+    head, row = data.strip().splitlines()
+    path = make_zip(tmp_path / "a.zip", "a.csv", head + ";DT_GERACAO\n" + row + ";15/10/2026\n")
+    with pytest.raises(ValueError, match="exceeds forecasting cutoff"):
+        read_munzona(path, 2026)
