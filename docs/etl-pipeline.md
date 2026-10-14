@@ -106,3 +106,7 @@ The included tests use entirely synthetic and local data and do not attempt to d
 The checked-in small reference CSV records source URLs, PDF members/pages or HTML locators, and publication dates or catalog years. Year-only dates must precede the cutoff year. Partial references compare only published metrics and return incomplete coverage, never an invented zero. Raw PDFs remain outside Git. The command returns exit code 1 for a mismatch and leaves observed values and differences visible. The audited snapshot has a 669-person 2018 round-two abstention difference; do not suppress this exit code in publication gates. Both 2014 rounds now match the official 2016 TSE publication, page 56. The 2014 section residuals and the 2018 state category difference are detailed in [the follow-up investigation](discrepancy-investigation.md). A matched subset does not certify the entire panel.
 
 Downloads now retain `.zip.receipt.json` sidecars. Builds verify receipt hashes when available and leave custom inputs unattributed when no matching receipt exists. A generation date before the cutoff alone does not prove historical availability; preserve the downloaded snapshot and its original observation receipt.
+
+## Section-level build
+
+The separate [section turnout ETL](section-etl.md) now processes the official section archives for all four years. It writes a normalized SQLite base and CSV.gz, with nationwide UF coverage, unique section keys, source flags, cutoff checks and independent section-to-zone reconciliation.

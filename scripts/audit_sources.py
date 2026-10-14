@@ -23,6 +23,8 @@ def main():
     args.output_dir.mkdir(parents=True, exist_ok=True)
     audit = {"sources": {}, "election_schemas": {}}
     for key in OFFICIAL_ARCHIVES:
+        if key.startswith("tse-sections-"):
+            continue  # The municipal smoke audit does not require section inputs.
         path = official_path(key, args.raw_dir)
         with ZipFile(path) as archive:
             audit["sources"][key] = {

@@ -28,8 +28,9 @@ Composite unique key: `(municipality_code, year, round)`. A missing second round
 
 These retain identifier correspondence, per-election-round domestic totals, file hashes and source/reporting exclusions, and the matched EPSG:4674 municipal geometries. See [ETL guide](etl-pipeline.md).
 
-## `section_turnout.csv`
-One row per `(year, round, municipality_code, electoral_zone, section_id)` with `eligible`, `turnout`, `absent`, a source file/version and a mapped establishment ID where verified.
+## `section_panel.csv.gz` and `section_panel.sqlite` (implemented)
+
+One domestic presidential record per `(year, round, uf, tse_code, electoral_zone, section_id)`, with an official `municipality_code`, polling-place identifier, preserved turnout counts, source status flags, accounting-quality fields and archive/row provenance. The SQLite table is `sections`. Historical years include both rounds; 2026 includes round one only. The schema, quality rules and usage examples are in the [section ETL guide](section-etl.md). Section keys are election-specific; no historical correspondence or coordinates are inferred.
 
 ## `polling_places.csv`
 Establishment identifier, municipality code, address, latitude, longitude, location precision, geocoding provenance and validity dates. Never treat zone or section numbers as physical coordinates.

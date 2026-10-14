@@ -23,6 +23,12 @@ OFFICIAL_ARCHIVES: dict[str, str] = {
         )
         for year in (2014, 2018, 2022, 2026)
     },
+    **{
+        f"tse-sections-{year}": (
+            f"{TSE_BASE}/detalhe_votacao_secao/detalhe_votacao_secao_{year}.zip"
+        )
+        for year in (2014, 2018, 2022, 2026)
+    },
     "tse-ibge-crosswalk": f"{TSE_BASE}/municipio_tse_ibge/municipio_tse_ibge.zip",
     "ibge-municipalities-2025": f"{IBGE_BASE}/BR_Municipios_2025.zip",
 }

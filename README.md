@@ -59,7 +59,17 @@ python -m abstention_spatial.pipeline download --names tse-munzona-2014 tse-munz
 python -m abstention_spatial.pipeline build --years 2014 2018 2022 2026 --cutoff 2026-10-14 --allow-discrepancies
 ```
 
-**Important:** `--allow-discrepancies` explicitly preserves the documented 2014 residuals in `unaccounted`; strict builds reject those rows. Reconciliation limitations remain. Downloaded inputs and generated outputs are gitignored. The first ETL release uses municipality/zone aggregates, *not* section-level results or socioeconomic covariates. Read the [full ETL operating guide](docs/etl-pipeline.md) before running it.
+**Important:** `--allow-discrepancies` explicitly preserves the documented 2014 residuals in `unaccounted`; strict builds reject those rows. Reconciliation limitations remain. Downloaded inputs and generated outputs are gitignored. Both municipal/zone and section turnout ETLs are available; socioeconomic covariates require separate dated imports. Read the [full ETL operating guide](docs/etl-pipeline.md) before running it.
+
+## National section turnout base
+
+The [section ETL](docs/section-etl.md) provides **3,203,211** presidential section/year/round records for 2014, 2018, 2022 and the first round of 2026, covering the 26 states and DF. It preserves source counts, unknown status flags, historical residuals and TSE-to-IBGE mapping. SQLite and CSV.gz outputs retain source-row provenance and the 14 October 2026 cutoff. The test suite passes 50 tests.
+
+```bash
+python -m abstention_spatial.pipeline download --names tse-sections-2014 tse-sections-2018 tse-sections-2022 tse-sections-2026 tse-ibge-crosswalk
+python -m abstention_spatial.sections --years 2014 2018 2022 2026 --cutoff 2026-10-14 --allow-discrepancies --output-dir data/processed/sections-national
+python scripts/verify_sections.py --output-dir data/processed/sections-national
+```
 
 ## Scope and integrity
 Aggregate electoral participation only. Do not infer how abstainers would have voted or individual voter preferences from aggregate results. Avoid publication of potentially disclosive small-cell information. Keep data provenance and cutoff dates alongside each estimate.

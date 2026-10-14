@@ -1,0 +1,1031 @@
+{
+  "cutoff_date": "2026-10-14",
+  "years": [
+    2014,
+    2018,
+    2022,
+    2026
+  ],
+  "office": "president",
+  "selected_ufs": [
+    "AC",
+    "AL",
+    "AM",
+    "AP",
+    "BA",
+    "CE",
+    "DF",
+    "ES",
+    "GO",
+    "MA",
+    "MG",
+    "MS",
+    "MT",
+    "PA",
+    "PB",
+    "PE",
+    "PI",
+    "PR",
+    "RJ",
+    "RN",
+    "RO",
+    "RR",
+    "RS",
+    "SC",
+    "SE",
+    "SP",
+    "TO"
+  ],
+  "source_audit": {
+    "2014": {
+      "member": "detalhe_votacao_secao_2014_BR.csv",
+      "members": [
+        {
+          "name": "detalhe_votacao_secao_2014_AC.csv",
+          "bytes_uncompressed": 1558866
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_AL.csv",
+          "bytes_uncompressed": 4778249
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_AM.csv",
+          "bytes_uncompressed": 6279396
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_AP.csv",
+          "bytes_uncompressed": 1378696
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_BA.csv",
+          "bytes_uncompressed": 24234186
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_CE.csv",
+          "bytes_uncompressed": 19045071
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_ES.csv",
+          "bytes_uncompressed": 6421057
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_GO.csv",
+          "bytes_uncompressed": 12688858
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_MA.csv",
+          "bytes_uncompressed": 12171796
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_MG.csv",
+          "bytes_uncompressed": 36957879
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_MS.csv",
+          "bytes_uncompressed": 5708601
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_MT.csv",
+          "bytes_uncompressed": 5402854
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_PA.csv",
+          "bytes_uncompressed": 15232508
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_PB.csv",
+          "bytes_uncompressed": 9253592
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_PE.csv",
+          "bytes_uncompressed": 14928303
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_PI.csv",
+          "bytes_uncompressed": 6147816
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_PR.csv",
+          "bytes_uncompressed": 19536635
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_RJ.csv",
+          "bytes_uncompressed": 33467816
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_RN.csv",
+          "bytes_uncompressed": 7165030
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_RO.csv",
+          "bytes_uncompressed": 3568356
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_RR.csv",
+          "bytes_uncompressed": 1012923
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_RS.csv",
+          "bytes_uncompressed": 27127645
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_SC.csv",
+          "bytes_uncompressed": 11785238
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_SE.csv",
+          "bytes_uncompressed": 3733212
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_SP.csv",
+          "bytes_uncompressed": 70373768
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_TO.csv",
+          "bytes_uncompressed": 2776516
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_BRASIL.csv",
+          "bytes_uncompressed": 533243687
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_DF.csv",
+          "bytes_uncompressed": 6490282
+        },
+        {
+          "name": "detalhe_votacao_secao_2014_BR.csv",
+          "bytes_uncompressed": 164029608
+        },
+        {
+          "name": "leiame.pdf",
+          "bytes_uncompressed": 195243
+        }
+      ],
+      "schema": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "NR_TURNO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "DT_ELEICAO",
+        "TP_ABRANGENCIA",
+        "SG_UF",
+        "SG_UE",
+        "NM_UE",
+        "CD_MUNICIPIO",
+        "NM_MUNICIPIO",
+        "NR_ZONA",
+        "NR_SECAO",
+        "CD_CARGO",
+        "DS_CARGO",
+        "QT_APTOS",
+        "QT_COMPARECIMENTO",
+        "QT_ABSTENCOES",
+        "QT_VOTOS_NOMINAIS",
+        "QT_VOTOS_BRANCOS",
+        "QT_VOTOS_NULOS",
+        "QT_VOTOS_LEGENDA",
+        "QT_VOTOS_ANULADOS_APU_SEP",
+        "NR_LOCAL_VOTACAO"
+      ],
+      "source_rows": 857788,
+      "other_office_rows": 0,
+      "future_round_rows": 0,
+      "foreign_rows": 1908,
+      "uf_filter_excluded_rows": 0,
+      "rows_written": 855880
+    },
+    "2018": {
+      "member": "detalhe_votacao_secao_2018_BR.csv",
+      "members": [
+        {
+          "name": "detalhe_votacao_secao_2018_BA.csv",
+          "bytes_uncompressed": 45363275
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_CE.csv",
+          "bytes_uncompressed": 29540558
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_AC.csv",
+          "bytes_uncompressed": 2670619
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_BR.csv",
+          "bytes_uncompressed": 313345987
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_AP.csv",
+          "bytes_uncompressed": 2852377
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_GO.csv",
+          "bytes_uncompressed": 19934330
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_DF.csv",
+          "bytes_uncompressed": 11889893
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_ES.csv",
+          "bytes_uncompressed": 12245031
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_AL.csv",
+          "bytes_uncompressed": 9143470
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_AM.csv",
+          "bytes_uncompressed": 11986420
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_MA.csv",
+          "bytes_uncompressed": 22167180
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_MG.csv",
+          "bytes_uncompressed": 86734180
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_MS.csv",
+          "bytes_uncompressed": 11682149
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_MT.csv",
+          "bytes_uncompressed": 12895000
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_PB.csv",
+          "bytes_uncompressed": 14307294
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_PA.csv",
+          "bytes_uncompressed": 29431713
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_PE.csv",
+          "bytes_uncompressed": 28374424
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_PR.csv",
+          "bytes_uncompressed": 37630661
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_PI.csv",
+          "bytes_uncompressed": 12521235
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_RJ.csv",
+          "bytes_uncompressed": 61283228
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_RN.csv",
+          "bytes_uncompressed": 13616177
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_RO.csv",
+          "bytes_uncompressed": 7464573
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_RR.csv",
+          "bytes_uncompressed": 2042092
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_RS.csv",
+          "bytes_uncompressed": 49216569
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_SC.csv",
+          "bytes_uncompressed": 28647779
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_SE.csv",
+          "bytes_uncompressed": 9112523
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_TO.csv",
+          "bytes_uncompressed": 5488999
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_SP.csv",
+          "bytes_uncompressed": 168553295
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_ZZ.csv",
+          "bytes_uncompressed": 606
+        },
+        {
+          "name": "detalhe_votacao_secao_2018_BRASIL.csv",
+          "bytes_uncompressed": 1060124669
+        }
+      ],
+      "schema": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "NR_TURNO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "DT_ELEICAO",
+        "TP_ABRANGENCIA",
+        "SG_UF",
+        "SG_UE",
+        "NM_UE",
+        "CD_MUNICIPIO",
+        "NM_MUNICIPIO",
+        "NR_ZONA",
+        "NR_SECAO",
+        "CD_CARGO",
+        "DS_CARGO",
+        "QT_APTOS",
+        "QT_COMPARECIMENTO",
+        "QT_ABSTENCOES",
+        "QT_VOTOS_NOMINAIS",
+        "QT_VOTOS_BRANCOS",
+        "QT_VOTOS_NULOS",
+        "QT_VOTOS_LEGENDA",
+        "QT_VOTOS_ANULADOS_APU_SEP",
+        "NR_LOCAL_VOTACAO",
+        "NM_LOCAL_VOTACAO",
+        "DS_LOCAL_VOTACAO_ENDERECO",
+        "DT_RECEBIMENTO_BU_HOR_TSE",
+        "DT_PRIM_TOT_PARCIAL_HOR_TSE",
+        "DS_ORIGEM_VOTO",
+        "ST_SECAO_INSTALADA",
+        "ST_SECAO_ANULADA",
+        "CD_MODELO_URNA",
+        "DS_MODELO_URNA"
+      ],
+      "source_rows": 908980,
+      "other_office_rows": 0,
+      "future_round_rows": 0,
+      "foreign_rows": 1568,
+      "uf_filter_excluded_rows": 0,
+      "rows_written": 907412
+    },
+    "2022": {
+      "member": "detalhe_votacao_secao_2022_BR.csv",
+      "members": [
+        {
+          "name": "detalhe_votacao_secao_2022_MT.csv",
+          "bytes_uncompressed": 11254880
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_AC.csv",
+          "bytes_uncompressed": 3001759
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_BRASIL.csv",
+          "bytes_uncompressed": 1102460791
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_MS.csv",
+          "bytes_uncompressed": 12579622
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_AP.csv",
+          "bytes_uncompressed": 2476701
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_AL.csv",
+          "bytes_uncompressed": 12017919
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_AM.csv",
+          "bytes_uncompressed": 13146667
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_ES.csv",
+          "bytes_uncompressed": 16439407
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_DF.csv",
+          "bytes_uncompressed": 9725118
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_CE.csv",
+          "bytes_uncompressed": 31948827
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_MA.csv",
+          "bytes_uncompressed": 23339259
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_GO.csv",
+          "bytes_uncompressed": 21140660
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_BA.csv",
+          "bytes_uncompressed": 63454123
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_MG.csv",
+          "bytes_uncompressed": 73243035
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_BR.csv",
+          "bytes_uncompressed": 330747068
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_SC.csv",
+          "bytes_uncompressed": 30341216
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_PA.csv",
+          "bytes_uncompressed": 25291253
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_PB.csv",
+          "bytes_uncompressed": 17531649
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_PI.csv",
+          "bytes_uncompressed": 12809586
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_RO.csv",
+          "bytes_uncompressed": 7609388
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_RN.csv",
+          "bytes_uncompressed": 11508926
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_PR.csv",
+          "bytes_uncompressed": 37590964
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_SE.csv",
+          "bytes_uncompressed": 9918368
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_PE.csv",
+          "bytes_uncompressed": 37322511
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_RJ.csv",
+          "bytes_uncompressed": 50148282
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_RR.csv",
+          "bytes_uncompressed": 2353624
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_TO.csv",
+          "bytes_uncompressed": 5762670
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_SP.csv",
+          "bytes_uncompressed": 179888807
+        },
+        {
+          "name": "detalhe_votacao_secao_2022_RS.csv",
+          "bytes_uncompressed": 49884864
+        },
+        {
+          "name": "leiame.pdf",
+          "bytes_uncompressed": 123650
+        }
+      ],
+      "schema": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "NR_TURNO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "DT_ELEICAO",
+        "TP_ABRANGENCIA",
+        "SG_UF",
+        "SG_UE",
+        "NM_UE",
+        "CD_MUNICIPIO",
+        "NM_MUNICIPIO",
+        "NR_ZONA",
+        "NR_SECAO",
+        "CD_CARGO",
+        "DS_CARGO",
+        "QT_APTOS",
+        "QT_COMPARECIMENTO",
+        "QT_ABSTENCOES",
+        "QT_VOTOS_NOMINAIS",
+        "QT_VOTOS_BRANCOS",
+        "QT_VOTOS_NULOS",
+        "QT_VOTOS_LEGENDA",
+        "QT_VOTOS_ANULADOS_APU_SEP",
+        "NR_LOCAL_VOTACAO",
+        "NM_LOCAL_VOTACAO",
+        "DS_LOCAL_VOTACAO_ENDERECO",
+        "DT_RECEBIMENTO_BU_HOR_TSE",
+        "DT_PRIM_TOT_PARCIAL_HOR_TSE",
+        "DS_ORIGEM_VOTO",
+        "ST_SECAO_INSTALADA",
+        "ST_SECAO_ANULADA",
+        "CD_MODELO_URNA",
+        "DS_MODELO_URNA"
+      ],
+      "source_rows": 944150,
+      "other_office_rows": 0,
+      "future_round_rows": 0,
+      "foreign_rows": 2128,
+      "uf_filter_excluded_rows": 0,
+      "rows_written": 942022
+    },
+    "2026": {
+      "member": "detalhe_votacao_secao_2026_BR.csv",
+      "members": [
+        {
+          "name": "detalhe_votacao_secao_2026_DF.csv",
+          "bytes_uncompressed": 10135513
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_MG.csv",
+          "bytes_uncompressed": 76574052
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_MA.csv",
+          "bytes_uncompressed": 25886945
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_PE.csv",
+          "bytes_uncompressed": 31258843
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_PB.csv",
+          "bytes_uncompressed": 15765923
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_PI.csv",
+          "bytes_uncompressed": 14660732
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_PR.csv",
+          "bytes_uncompressed": 39790503
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_BRASIL.csv",
+          "bytes_uncompressed": 900479470
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_RO.csv",
+          "bytes_uncompressed": 6868211
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_RR.csv",
+          "bytes_uncompressed": 2237063
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_SC.csv",
+          "bytes_uncompressed": 25920597
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_SE.csv",
+          "bytes_uncompressed": 8642037
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_SP.csv",
+          "bytes_uncompressed": 148258417
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_RS.csv",
+          "bytes_uncompressed": 40619122
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_RN.csv",
+          "bytes_uncompressed": 12209985
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_ZZ.csv",
+          "bytes_uncompressed": 606
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_TO.csv",
+          "bytes_uncompressed": 6434764
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_RJ.csv",
+          "bytes_uncompressed": 55797277
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_PA.csv",
+          "bytes_uncompressed": 29058128
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_MT.csv",
+          "bytes_uncompressed": 12268187
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_GO.csv",
+          "bytes_uncompressed": 23384244
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_AM.csv",
+          "bytes_uncompressed": 11570009
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_AC.csv",
+          "bytes_uncompressed": 3209817
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_ES.csv",
+          "bytes_uncompressed": 14122842
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_AL.csv",
+          "bytes_uncompressed": 10385094
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_CE.csv",
+          "bytes_uncompressed": 33409827
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_MS.csv",
+          "bytes_uncompressed": 10404618
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_BR.csv",
+          "bytes_uncompressed": 175982344
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_AP.csv",
+          "bytes_uncompressed": 2755106
+        },
+        {
+          "name": "detalhe_votacao_secao_2026_BA.csv",
+          "bytes_uncompressed": 52881611
+        },
+        {
+          "name": "leiame.pdf",
+          "bytes_uncompressed": 123650
+        }
+      ],
+      "schema": [
+        "DT_GERACAO",
+        "HH_GERACAO",
+        "ANO_ELEICAO",
+        "CD_TIPO_ELEICAO",
+        "NM_TIPO_ELEICAO",
+        "NR_TURNO",
+        "CD_ELEICAO",
+        "DS_ELEICAO",
+        "DT_ELEICAO",
+        "TP_ABRANGENCIA",
+        "SG_UF",
+        "SG_UE",
+        "NM_UE",
+        "CD_MUNICIPIO",
+        "NM_MUNICIPIO",
+        "NR_ZONA",
+        "NR_SECAO",
+        "CD_CARGO",
+        "DS_CARGO",
+        "QT_APTOS",
+        "QT_COMPARECIMENTO",
+        "QT_ABSTENCOES",
+        "QT_VOTOS_NOMINAIS",
+        "QT_VOTOS_BRANCOS",
+        "QT_VOTOS_NULOS",
+        "QT_VOTOS_LEGENDA",
+        "QT_VOTOS_ANULADOS_APU_SEP",
+        "NR_LOCAL_VOTACAO",
+        "NM_LOCAL_VOTACAO",
+        "DS_LOCAL_VOTACAO_ENDERECO",
+        "DT_RECEBIMENTO_BU_HOR_TSE",
+        "DT_PRIM_TOT_PARCIAL_HOR_TSE",
+        "DS_ORIGEM_VOTO",
+        "ST_SECAO_INSTALADA",
+        "ST_SECAO_ANULADA",
+        "CD_MODELO_URNA",
+        "DS_MODELO_URNA"
+      ],
+      "source_rows": 499248,
+      "other_office_rows": 0,
+      "future_round_rows": 0,
+      "foreign_rows": 1351,
+      "uf_filter_excluded_rows": 0,
+      "rows_written": 497897
+    }
+  },
+  "source_files": {
+    "tse-sections-2014": {
+      "filename": "detalhe_votacao_secao_2014.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2014.zip",
+      "sha256": "a2af950c80d63a4af7e51522c327a1ce3bb0e360f1861f0080fba680f28442ec",
+      "size_bytes": 73594893,
+      "observed_at_utc": "2026-10-14T08:32:25.433477+00:00",
+      "download_receipt": {
+        "filename": "detalhe_votacao_secao_2014.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2014.zip",
+        "sha256": "a2af950c80d63a4af7e51522c327a1ce3bb0e360f1861f0080fba680f28442ec",
+        "size_bytes": 73594893,
+        "observed_at_utc": "2026-10-14T07:57:34.447302+00:00"
+      }
+    },
+    "tse-sections-2018": {
+      "filename": "detalhe_votacao_secao_2018.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+      "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+      "size_bytes": 256133172,
+      "observed_at_utc": "2026-10-14T08:32:26.111935+00:00",
+      "download_receipt": {
+        "filename": "detalhe_votacao_secao_2018.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2018.zip",
+        "sha256": "de35b08db427ee0c3089d88317e6166ea5dea33630f5b1dabdccf3304de48f70",
+        "size_bytes": 256133172,
+        "observed_at_utc": "2026-10-14T07:57:48.643704+00:00"
+      }
+    },
+    "tse-sections-2022": {
+      "filename": "detalhe_votacao_secao_2022.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip",
+      "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+      "size_bytes": 243822213,
+      "observed_at_utc": "2026-10-14T08:32:26.724291+00:00",
+      "download_receipt": {
+        "name": "tse-sections-2022",
+        "cached": false,
+        "filename": "detalhe_votacao_secao_2022.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip",
+        "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+        "size_bytes": 243822213,
+        "observed_at_utc": "2026-10-14T08:25:16.989444+00:00"
+      }
+    },
+    "tse-sections-2026": {
+      "filename": "detalhe_votacao_secao_2026.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+      "sha256": "11a62c3a604e8b73fc328617b7688d2c635de1c76df02ba63b8f77879512f573",
+      "size_bytes": 176923175,
+      "observed_at_utc": "2026-10-14T08:32:27.188168+00:00",
+      "download_receipt": {
+        "name": "tse-sections-2026",
+        "cached": false,
+        "filename": "detalhe_votacao_secao_2026.zip",
+        "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+        "sha256": "11a62c3a604e8b73fc328617b7688d2c635de1c76df02ba63b8f77879512f573",
+        "size_bytes": 176923175,
+        "observed_at_utc": "2026-10-14T08:25:26.938101+00:00"
+      }
+    }
+  },
+  "crosswalk": {
+    "filename": "municipio_tse_ibge.zip",
+    "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+    "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+    "size_bytes": 139031,
+    "observed_at_utc": "2026-10-14T08:32:27.189172+00:00",
+    "download_receipt": {
+      "name": "tse-ibge-crosswalk",
+      "cached": false,
+      "filename": "municipio_tse_ibge.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+      "size_bytes": 139031,
+      "observed_at_utc": "2026-10-14T06:34:21.656519+00:00"
+    }
+  },
+  "warnings": [
+    "Section identifiers are election-specific; no historical section correspondence is inferred.",
+    "Foreign district ZZ is excluded. These are domestic presidential turnout records.",
+    "Unknown section status remains null. Zero counts do not establish why a section did not function.",
+    "Polling-place codes are identifiers, not coordinates or geocoded establishments.",
+    "Counts are preserved from source snapshots; report-category discrepancies remain documented."
+  ],
+  "state_coverage": [
+    {
+      "year": 2014,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 427940
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 427940
+    },
+    {
+      "year": 2018,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 453706
+    },
+    {
+      "year": 2018,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 453706
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 471011
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 471011
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 497897
+    }
+  ],
+  "national_domestic_by_year_round": [
+    {
+      "year": 2014,
+      "round": 1,
+      "sections": 427940,
+      "eligible": 142468542,
+      "turnout": 114981382,
+      "absent": 27487156,
+      "uninstalled": 0,
+      "unaccounted": 4
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "sections": 427940,
+      "eligible": 142468510,
+      "turnout": 112542006,
+      "absent": 29926500,
+      "uninstalled": 0,
+      "unaccounted": 4
+    },
+    {
+      "year": 2018,
+      "round": 1,
+      "sections": 453706,
+      "eligible": 146805955,
+      "turnout": 117161888,
+      "absent": 29644067,
+      "uninstalled": 0,
+      "unaccounted": 0
+    },
+    {
+      "year": 2018,
+      "round": 2,
+      "sections": 453706,
+      "eligible": 146805947,
+      "turnout": 115732285,
+      "absent": 31073662,
+      "uninstalled": 0,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "sections": 471011,
+      "eligible": 155758656,
+      "turnout": 123378340,
+      "absent": 32380232,
+      "uninstalled": 84,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "sections": 471011,
+      "eligible": 155758433,
+      "turnout": 123942648,
+      "absent": 31815701,
+      "uninstalled": 84,
+      "unaccounted": 0
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "sections": 497897,
+      "eligible": 157828968,
+      "turnout": 124934069,
+      "absent": 32894899,
+      "uninstalled": 0,
+      "unaccounted": 0
+    }
+  ],
+  "quality_counts": [
+    {
+      "year": 2014,
+      "round": 1,
+      "count_quality": "balanced",
+      "rows": 427938,
+      "unaccounted": 0
+    },
+    {
+      "year": 2014,
+      "round": 1,
+      "count_quality": "unaccounted",
+      "rows": 2,
+      "unaccounted": 4
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "count_quality": "balanced",
+      "rows": 427938,
+      "unaccounted": 0
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "count_quality": "unaccounted",
+      "rows": 2,
+      "unaccounted": 4
+    },
+    {
+      "year": 2018,
+      "round": 1,
+      "count_quality": "balanced",
+      "rows": 453706,
+      "unaccounted": 0
+    },
+    {
+      "year": 2018,
+      "round": 2,
+      "count_quality": "balanced",
+      "rows": 453706,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "count_quality": "balanced",
+      "rows": 471010,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "count_quality": "uninstalled",
+      "rows": 1,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "count_quality": "balanced",
+      "rows": 471010,
+      "unaccounted": 0
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "count_quality": "uninstalled",
+      "rows": 1,
+      "unaccounted": 0
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "count_quality": "balanced",
+      "rows": 497897,
+      "unaccounted": 0
+    }
+  ],
+  "rows": 3203211,
+  "unique_municipalities": 5571,
+  "status": "complete_with_source_residuals",
+  "artifacts": {
+    "section_municipal_totals.csv": {
+      "filename": "section_municipal_totals.csv",
+      "source_url": null,
+      "sha256": "eba3aa015f98f7ac427d04debcc51664d35c23499a0c55d9d1b9970b95a831b7",
+      "size_bytes": 1392128,
+      "observed_at_utc": "2026-10-14T08:36:55.797914+00:00"
+    },
+    "section_panel.csv.gz": {
+      "filename": "section_panel.csv.gz",
+      "source_url": null,
+      "sha256": "91df9e2df19544b5a16ea3b2259963670b9f9c43d89f7ba8b5fcb606924ac173",
+      "size_bytes": 70218121,
+      "observed_at_utc": "2026-10-14T08:39:19.810896+00:00"
+    },
+    "section_panel.sqlite": {
+      "filename": "section_panel.sqlite",
+      "source_url": null,
+      "sha256": "1d4dba4530542c9f63052ca857869a1895ac66caaed1603b107901e261264774",
+      "size_bytes": 536399872,
+      "observed_at_utc": "2026-10-14T08:36:57.394539+00:00"
+    },
+    "section_state_totals.csv": {
+      "filename": "section_state_totals.csv",
+      "source_url": null,
+      "sha256": "9b7b64813ce3d3f84fbff3ab8e934adfef8bb304417e5d99c916c11e413173c8",
+      "size_bytes": 8337,
+      "observed_at_utc": "2026-10-14T08:36:57.395549+00:00"
+    }
+  },
+  "chunksize": 25000,
+  "csv_serialization": "Re-exported from the built SQLite base with nullable integer status flags; counts unchanged."
+}
