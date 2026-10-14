@@ -15,6 +15,19 @@
 - **Municipal:** municipality × election × round, harmonized geographic identifiers, TSE turnout counts and IBGE covariates.
 - **Polling place:** establishment × election × round, built from *validated* section-to-establishment links. Section numbers are identifiers, not coordinates; proximity between establishments is not equivalent to voters' travel distance.
 
+## Architecture
+```text
+Official TSE/IBGE data
+  -> provenance-checked source files
+  -> normalized municipal/section/establishment tables
+  -> reviewed municipality geometries and spatial weights
+  -> spatial diagnostics and interpretable econometric models
+  -> temporal backtesting and uncertainty calibration
+  -> aggregate municipality, state, and national research outputs
+```
+
+Poll-place analysis is a separate, nested extension requiring verified section-to-establishment linkage.
+
 ## Models
 OLS and historical-change baselines; exploratory Moran's I and local LISA; SAR, SEM and Spatial Durbin specifications; then a hierarchical binomial or beta-binomial spatial model for counts and calibrated prediction intervals. Spatial associations must not be represented as individual-level or causal effects.
 
@@ -27,7 +40,7 @@ pytest -q
 python -m abstention_spatial.cli --help
 ```
 
-See [data preparation](docs/data-sources.md), [methodology](docs/methodology.md), [model specification](docs/statistical-models.md), [2026 forecasting](docs/forecasting-2026.md), [validation](docs/validation.md) and [roadmap](docs/roadmap.md).
+See [data preparation](docs/data-sources.md), [methodology](docs/methodology.md), [model specification](docs/statistical-models.md), [2026 forecasting](docs/forecasting-2026.md), [validation](docs/validation.md) and [roadmap](docs/roadmap.md). Explore the [municipal spatial notebook](notebooks/01_municipal_spatial_eda.ipynb) and the [polling-place linkage audit](notebooks/02_polling_place_data_audit.ipynb).
 
 **Input files are not bundled.** Download and verify official TSE/IBGE data first, then normalize to the schema described in [data dictionary](docs/data-dictionary.md). The CLI currently provides a transparent municipality-level diagnostics entry point, not a trained national forecasting service.
 
@@ -39,6 +52,7 @@ Aggregate electoral participation only. Do not infer how abstainers would have v
 docs/                     Research protocol and data dictionary
 src/abstention_spatial/   Baseline and spatial diagnostics
 tests/                    Unit tests
+notebooks/                Data checks and exploratory notebooks
 data/raw/                 Unmodified downloaded files (gitignored)
 data/processed/           Harmonized tables (gitignored)
 outputs/                  Generated artifacts (gitignored)
