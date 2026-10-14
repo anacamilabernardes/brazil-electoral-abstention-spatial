@@ -2,7 +2,7 @@
 
 ## Status and boundaries of trust
 
-The Python ETL package implements official-source discovery, explicit ZIP downloads, SHA-256 source receipts, chunked turnout ingestion, code harmonization, geographic joins and a quality-audit report. It has been exercised with synthetic tests, a real Bras�lia smoke test, and the full official 2014/2018/2022/2026 national archives. See [execution audit](execution-audit-2026-10-14.md). This is data engineering groundwork, not a validated 2026 forecast.
+The Python ETL package implements official-source discovery, explicit ZIP downloads, SHA-256 source receipts, chunked turnout ingestion, code harmonization, geographic joins and a quality-audit report. It has been exercised with synthetic tests, a real Brasilia smoke test, and the full official 2014/2018/2022/2026 national archives. See [execution audit](execution-audit-2026-10-14.md). This is data engineering groundwork, not a validated 2026 forecast.
 
 The `reconcile` command compares independently transcribed report totals with matched source universes. Complete reference coverage remains unavailable. The pipeline does not perform historical boundary backcasting, socioeconomic-feature enrichment, or polling-place geocoding. Failing data/schema checks must be resolved before publishing results.
 
@@ -39,7 +39,7 @@ Official downloads can be very large (the IBGE countrywide municipality ZIP alon
 
 The turnout reader automatically selects exactly `detalhe_votacao_munzona_YEAR_BR.csv` when present. This contains the presidential office for all domestic UFs and overseas voting. `BRASIL` also contains those same records and other offices; state CSVs in the inspected archives contain state offices. These files must never be concatenated together. For an explicit override use `--member 2022=detalhe_votacao_munzona_2022_BRASIL.csv`. Unknown multi-CSV layouts still fail closed.
 
-Inspect actual schemas and execute an offline Bras�lia smoke test before national processing:
+Inspect actual schemas and execute an offline Brasilia smoke test before national processing:
 
     python scripts/audit_sources.py --raw-dir data/raw --output-dir data/processed/audit
 
