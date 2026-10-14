@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+.env
+*.egg-info/
+dist/
+build/
+data/raw/**
+data/processed/**
+data/geospatial/**
+outputs/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/geospatial/.gitkeep
+!outputs/.gitkeep
