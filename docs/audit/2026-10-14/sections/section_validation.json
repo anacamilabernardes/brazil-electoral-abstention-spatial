@@ -1,0 +1,65 @@
+{
+  "status": "verified",
+  "cutoff_date": "2026-10-14",
+  "rows": 3203211,
+  "csv_sqlite_totals": {
+    "eligible": 1047895011,
+    "turnout": 832672618,
+    "absent": 215222217,
+    "uninstalled": 168,
+    "unaccounted": 8
+  },
+  "zone_keys_compared": 43044,
+  "zone_keys_with_mismatches": 0,
+  "zone_keys_by_year": {
+    "2014": 12530,
+    "2018": 12204,
+    "2022": 12204,
+    "2026": 6106
+  },
+  "zero_turnout_positive_eligible_rows": 10,
+  "state_coverage": [
+    {
+      "year": 2014,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 427940
+    },
+    {
+      "year": 2014,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 427940
+    },
+    {
+      "year": 2018,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 453706
+    },
+    {
+      "year": 2018,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 453706
+    },
+    {
+      "year": 2022,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 471011
+    },
+    {
+      "year": 2022,
+      "round": 2,
+      "uf_count": 27,
+      "sections": 471011
+    },
+    {
+      "year": 2026,
+      "round": 1,
+      "uf_count": 27,
+      "sections": 497897
+    }
+  ]
+}

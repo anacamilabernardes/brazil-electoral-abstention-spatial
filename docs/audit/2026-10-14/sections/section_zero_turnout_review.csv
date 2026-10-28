@@ -1,0 +1,11 @@
+year,round,uf,tse_code,electoral_zone,section_id,municipality_code,eligible,turnout,absent,uninstalled,unaccounted,section_installed,count_quality
+2014,1,SE,31054,0027,0392,2800308,2,0,0,0,2,,unaccounted
+2014,1,SE,31950,0034,0255,2804805,2,0,0,0,2,,unaccounted
+2014,2,CE,13480,0057,0281,2306256,40,0,40,0,0,,balanced
+2014,2,SE,31054,0027,0392,2800308,2,0,0,0,2,,unaccounted
+2014,2,SE,31950,0034,0255,2804805,2,0,0,0,2,,unaccounted
+2014,2,SP,64297,0192,0503,3516408,20,0,20,0,0,,balanced
+2018,2,ES,56227,0037,0087,3205176,334,0,334,0,0,,balanced
+2018,2,PR,78573,0083,0015,4124400,335,0,335,0,0,,balanced
+2022,1,AM,02550,0068,0797,1302603,84,0,0,84,0,0,uninstalled
+2022,2,AM,02550,0068,0797,1302603,84,0,0,84,0,0,uninstalled

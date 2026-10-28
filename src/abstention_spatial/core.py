@@ -21,14 +21,17 @@ def validate_municipal_panel(df: pd.DataFrame) -> pd.DataFrame:
         raise ValueError("municipality_code must be a seven-digit IBGE code")
     if not result["round"].isin([1, 2]).all():
         raise ValueError("round must be 1 or 2")
-    for col in ["eligible", "turnout", "absent"]:
+    for col in ["uninstalled", "unaccounted"]:
+        if col not in result:
+            result[col] = 0
+    for col in ["eligible", "turnout", "absent", "uninstalled", "unaccounted"]:
         val = pd.to_numeric(result[col], errors="coerce")
         if val.isna().any() or not np.isfinite(val).all() or (val % 1 != 0).any():
             raise ValueError(f"{col} must be finite nonnegative integers")
         result[col] = val.astype("int64")
     if ((result["eligible"] <= 0) | (result["turnout"] < 0) |
-        (result["absent"] < 0) |
-        (result["turnout"] + result["absent"] != result["eligible"])).any():
+        (result["absent"] < 0) | (result["uninstalled"] < 0) | (result["unaccounted"] < 0) |
+        (result["turnout"] + result["absent"] + result["uninstalled"] + result["unaccounted"] != result["eligible"])).any():
         raise ValueError("Election count constraints violated")
     result["abstention_rate"] = result["absent"] / result["eligible"]
     return result

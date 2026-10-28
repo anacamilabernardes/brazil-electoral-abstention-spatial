@@ -1,0 +1,1488 @@
+{
+  "sources": {
+    "tse-munzona-2014": {
+      "filename": "detalhe_votacao_munzona_2014.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+      "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+      "size_bytes": 3937094,
+      "observed_at_utc": "2026-10-14T06:47:33.408239+00:00",
+      "members": [
+        {
+          "name": "detalhe_votacao_munzona_2014_BR.csv",
+          "uncompressed_bytes": 3567943
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_AC.csv",
+          "uncompressed_bytes": 33268
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_AL.csv",
+          "uncompressed_bytes": 117559
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_BRASIL.csv",
+          "uncompressed_bytes": 11233489
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_ES.csv",
+          "uncompressed_bytes": 97322
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_CE.csv",
+          "uncompressed_bytes": 275123
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_AP.csv",
+          "uncompressed_bytes": 23824
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_DF.csv",
+          "uncompressed_bytes": 31276
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_BA.csv",
+          "uncompressed_bytes": 489348
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_AM.csv",
+          "uncompressed_bytes": 144913
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_MA.csv",
+          "uncompressed_bytes": 264596
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_GO.csv",
+          "uncompressed_bytes": 356430
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_MS.csv",
+          "uncompressed_bytes": 125698
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_MT.csv",
+          "uncompressed_bytes": 169757
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_PB.csv",
+          "uncompressed_bytes": 316332
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_MG.csv",
+          "uncompressed_bytes": 1012376
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_PA.csv",
+          "uncompressed_bytes": 217241
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_PE.csv",
+          "uncompressed_bytes": 237907
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_PI.csv",
+          "uncompressed_bytes": 253334
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_RN.csv",
+          "uncompressed_bytes": 244940
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_TO.csv",
+          "uncompressed_bytes": 235066
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_PR.csv",
+          "uncompressed_bytes": 484864
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_RJ.csv",
+          "uncompressed_bytes": 380148
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_RO.csv",
+          "uncompressed_bytes": 89519
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_RS.csv",
+          "uncompressed_bytes": 743760
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_SC.csv",
+          "uncompressed_bytes": 353617
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_RR.csv",
+          "uncompressed_bytes": 22382
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_SE.csv",
+          "uncompressed_bytes": 86769
+        },
+        {
+          "name": "detalhe_votacao_munzona_2014_SP.csv",
+          "uncompressed_bytes": 883422
+        },
+        {
+          "name": "leiame.pdf",
+          "uncompressed_bytes": 134884
+        }
+      ]
+    },
+    "tse-munzona-2018": {
+      "filename": "detalhe_votacao_munzona_2018.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+      "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+      "size_bytes": 4269741,
+      "observed_at_utc": "2026-10-14T06:47:34.405071+00:00",
+      "members": [
+        {
+          "name": "detalhe_votacao_munzona_2018_AC.csv",
+          "uncompressed_bytes": 26931
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_SE.csv",
+          "uncompressed_bytes": 111196
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_SP.csv",
+          "uncompressed_bytes": 1130379
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_RO.csv",
+          "uncompressed_bytes": 81906
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_RR.csv",
+          "uncompressed_bytes": 23356
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_RS.csv",
+          "uncompressed_bytes": 766974
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_SC.csv",
+          "uncompressed_bytes": 456366
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_PB.csv",
+          "uncompressed_bytes": 261829
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_AL.csv",
+          "uncompressed_bytes": 123899
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_TO.csv",
+          "uncompressed_bytes": 160529
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_AM.csv",
+          "uncompressed_bytes": 106689
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_CE.csv",
+          "uncompressed_bytes": 235447
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_BRASIL.csv",
+          "uncompressed_bytes": 11538010
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_BR.csv",
+          "uncompressed_bytes": 3453788
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_DF.csv",
+          "uncompressed_bytes": 29653
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_GO.csv",
+          "uncompressed_bytes": 293837
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_BA.csv",
+          "uncompressed_bytes": 515478
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_AP.csv",
+          "uncompressed_bytes": 24913
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_MA.csv",
+          "uncompressed_bytes": 260538
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_ES.csv",
+          "uncompressed_bytes": 101633
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_MG.csv",
+          "uncompressed_bytes": 1305349
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_MS.csv",
+          "uncompressed_bytes": 131277
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_MT.csv",
+          "uncompressed_bytes": 212701
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_PE.csv",
+          "uncompressed_bytes": 245395
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_PR.csv",
+          "uncompressed_bytes": 480872
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_RN.csv",
+          "uncompressed_bytes": 254672
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_PA.csv",
+          "uncompressed_bytes": 228378
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_PI.csv",
+          "uncompressed_bytes": 262055
+        },
+        {
+          "name": "detalhe_votacao_munzona_2018_RJ.csv",
+          "uncompressed_bytes": 277215
+        },
+        {
+          "name": "leiame.pdf",
+          "uncompressed_bytes": 134884
+        }
+      ]
+    },
+    "tse-munzona-2022": {
+      "filename": "detalhe_votacao_munzona_2022.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip",
+      "sha256": "4f4fb43493c65ebf743b74430f1590343a2bdeca16fc7ab9b80827e8c51eab92",
+      "size_bytes": 4422339,
+      "observed_at_utc": "2026-10-14T06:47:35.536412+00:00",
+      "members": [
+        {
+          "name": "detalhe_votacao_munzona_2022_AC.csv",
+          "uncompressed_bytes": 26897
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_AL.csv",
+          "uncompressed_bytes": 154290
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_SP.csv",
+          "uncompressed_bytes": 1134508
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_MT.csv",
+          "uncompressed_bytes": 170120
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_AM.csv",
+          "uncompressed_bytes": 106991
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_AP.csv",
+          "uncompressed_bytes": 20298
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_PA.csv",
+          "uncompressed_bytes": 183637
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_TO.csv",
+          "uncompressed_bytes": 159919
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_BA.csv",
+          "uncompressed_bytes": 639870
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_DF.csv",
+          "uncompressed_bytes": 24304
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_BRASIL.csv",
+          "uncompressed_bytes": 11380477
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_ES.csv",
+          "uncompressed_bytes": 126233
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_CE.csv",
+          "uncompressed_bytes": 236063
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_BR.csv",
+          "uncompressed_bytes": 3451986
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_MA.csv",
+          "uncompressed_bytes": 260302
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_GO.csv",
+          "uncompressed_bytes": 293463
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_MG.csv",
+          "uncompressed_bytes": 1045469
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_MS.csv",
+          "uncompressed_bytes": 131659
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_PB.csv",
+          "uncompressed_bytes": 326462
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_PE.csv",
+          "uncompressed_bytes": 304575
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_PI.csv",
+          "uncompressed_bytes": 262054
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_RJ.csv",
+          "uncompressed_bytes": 225438
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_PR.csv",
+          "uncompressed_bytes": 479370
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_RN.csv",
+          "uncompressed_bytes": 204570
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_RO.csv",
+          "uncompressed_bytes": 81851
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_RR.csv",
+          "uncompressed_bytes": 23632
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_SC.csv",
+          "uncompressed_bytes": 455228
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_RS.csv",
+          "uncompressed_bytes": 765343
+        },
+        {
+          "name": "detalhe_votacao_munzona_2022_SE.csv",
+          "uncompressed_bytes": 111190
+        },
+        {
+          "name": "leiame.pdf",
+          "uncompressed_bytes": 125454
+        }
+      ]
+    },
+    "tse-munzona-2026": {
+      "filename": "detalhe_votacao_munzona_2026.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+      "sha256": "0d5a723707c446de17e4fbcffefa408ecb6c8b9642aaf1dc627975258bb3c5b7",
+      "size_bytes": 2502589,
+      "observed_at_utc": "2026-10-14T06:47:36.674424+00:00",
+      "members": [
+        {
+          "name": "detalhe_votacao_munzona_2026_AC.csv",
+          "uncompressed_bytes": 27338
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_AL.csv",
+          "uncompressed_bytes": 124389
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_AM.csv",
+          "uncompressed_bytes": 86560
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_AP.csv",
+          "uncompressed_bytes": 21457
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_BA.csv",
+          "uncompressed_bytes": 517343
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_DF.csv",
+          "uncompressed_bytes": 24478
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_CE.csv",
+          "uncompressed_bytes": 236306
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_ES.csv",
+          "uncompressed_bytes": 102147
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_GO.csv",
+          "uncompressed_bytes": 294651
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_MA.csv",
+          "uncompressed_bytes": 262257
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_MG.csv",
+          "uncompressed_bytes": 1051185
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_MS.csv",
+          "uncompressed_bytes": 106047
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_PA.csv",
+          "uncompressed_bytes": 185913
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_MT.csv",
+          "uncompressed_bytes": 171816
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_BR.csv",
+          "uncompressed_bytes": 1737042
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_BRASIL.csv",
+          "uncompressed_bytes": 8846328
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_PE.csv",
+          "uncompressed_bytes": 246472
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_PB.csv",
+          "uncompressed_bytes": 263050
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_PI.csv",
+          "uncompressed_bytes": 263663
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_PR.csv",
+          "uncompressed_bytes": 483177
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_RJ.csv",
+          "uncompressed_bytes": 225963
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_RN.csv",
+          "uncompressed_bytes": 205449
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_RO.csv",
+          "uncompressed_bytes": 66188
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_RR.csv",
+          "uncompressed_bytes": 19141
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_RS.csv",
+          "uncompressed_bytes": 616922
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_SC.csv",
+          "uncompressed_bytes": 369060
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_SE.csv",
+          "uncompressed_bytes": 90970
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_SP.csv",
+          "uncompressed_bytes": 911408
+        },
+        {
+          "name": "detalhe_votacao_munzona_2026_TO.csv",
+          "uncompressed_bytes": 161181
+        },
+        {
+          "name": "leiame.pdf",
+          "uncompressed_bytes": 125454
+        }
+      ]
+    },
+    "tse-ibge-crosswalk": {
+      "filename": "municipio_tse_ibge.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+      "size_bytes": 139031,
+      "observed_at_utc": "2026-10-14T06:47:37.444953+00:00",
+      "members": [
+        {
+          "name": "leiame.pdf",
+          "uncompressed_bytes": 60546
+        },
+        {
+          "name": "municipio_tse_ibge.csv",
+          "uncompressed_bytes": 520088
+        }
+      ]
+    },
+    "ibge-municipalities-2025": {
+      "filename": "BR_Municipios_2025.zip",
+      "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+      "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+      "size_bytes": 237062431,
+      "observed_at_utc": "2026-10-14T06:47:38.939610+00:00",
+      "members": [
+        {
+          "name": "BR_Municipios_2025.cpg",
+          "uncompressed_bytes": 5
+        },
+        {
+          "name": "LEIA-ME.txt",
+          "uncompressed_bytes": 1218
+        },
+        {
+          "name": "BR_Municipios_2025.shx",
+          "uncompressed_bytes": 44684
+        },
+        {
+          "name": "BR_Municipios_2025.shp",
+          "uncompressed_bytes": 320566512
+        },
+        {
+          "name": "BR_Municipios_2025.qmd",
+          "uncompressed_bytes": 1785
+        },
+        {
+          "name": "BR_Municipios_2025.prj",
+          "uncompressed_bytes": 151
+        },
+        {
+          "name": "BR_Municipios_2025.dbf",
+          "uncompressed_bytes": 2865036
+        }
+      ]
+    }
+  },
+  "election_schemas": {
+    "2014": {
+      "BR": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 13096,
+        "presidential_rows": 13096,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "BRASIL": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 40704,
+        "presidential_rows": 13096,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "AC": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 120,
+        "presidential_rows": 0,
+        "presidential_ufs": []
+      }
+    },
+    "2018": {
+      "BR": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 12546,
+        "presidential_rows": 12546,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "BRASIL": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 40476,
+        "presidential_rows": 12546,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "AC": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 92,
+        "presidential_rows": 0,
+        "presidential_ufs": []
+      }
+    },
+    "2022": {
+      "BR": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 12566,
+        "presidential_rows": 12566,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "BRASIL": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 39982,
+        "presidential_rows": 12566,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "AC": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 92,
+        "presidential_rows": 0,
+        "presidential_ufs": []
+      }
+    },
+    "2026": {
+      "BR": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 6292,
+        "presidential_rows": 6292,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "BRASIL": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 30716,
+        "presidential_rows": 6292,
+        "presidential_ufs": [
+          "AC",
+          "AL",
+          "AM",
+          "AP",
+          "BA",
+          "CE",
+          "DF",
+          "ES",
+          "GO",
+          "MA",
+          "MG",
+          "MS",
+          "MT",
+          "PA",
+          "PB",
+          "PE",
+          "PI",
+          "PR",
+          "RJ",
+          "RN",
+          "RO",
+          "RR",
+          "RS",
+          "SC",
+          "SE",
+          "SP",
+          "TO",
+          "ZZ"
+        ]
+      },
+      "AC": {
+        "columns": [
+          "DT_GERACAO",
+          "HH_GERACAO",
+          "ANO_ELEICAO",
+          "CD_TIPO_ELEICAO",
+          "NM_TIPO_ELEICAO",
+          "NR_TURNO",
+          "CD_ELEICAO",
+          "DS_ELEICAO",
+          "DT_ELEICAO",
+          "TP_ABRANGENCIA",
+          "SG_UF",
+          "SG_UE",
+          "NM_UE",
+          "CD_MUNICIPIO",
+          "NM_MUNICIPIO",
+          "NR_ZONA",
+          "CD_CARGO",
+          "DS_CARGO",
+          "QT_APTOS",
+          "QT_SECOES_PRINCIPAIS",
+          "QT_SECOES_AGREGADAS",
+          "QT_SECOES_NAO_INSTALADAS",
+          "QT_TOTAL_SECOES",
+          "QT_COMPARECIMENTO",
+          "QT_ELEITORES_SECOES_NAO_INSTALADAS",
+          "QT_ABSTENCOES",
+          "ST_VOTO_EM_TRANSITO",
+          "QT_VOTOS",
+          "QT_VOTOS_CONCORRENTES",
+          "QT_TOTAL_VOTOS_VALIDOS",
+          "QT_VOTOS_NOMINAIS_VALIDOS",
+          "QT_TOTAL_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_LEG_VALIDOS",
+          "QT_VOTOS_NOM_CONVR_LEG_VALIDOS",
+          "QT_TOTAL_VOTOS_ANULADOS",
+          "QT_VOTOS_NOMINAIS_ANULADOS",
+          "QT_VOTOS_LEGENDA_ANULADOS",
+          "QT_TOTAL_VOTOS_ANUL_SUBJUD",
+          "QT_VOTOS_NOMINAIS_ANUL_SUBJUD",
+          "QT_VOTOS_LEGENDA_ANUL_SUBJUD",
+          "QT_VOTOS_BRANCOS",
+          "QT_TOTAL_VOTOS_NULOS",
+          "QT_VOTOS_NULOS",
+          "QT_VOTOS_NULOS_TECNICOS",
+          "QT_VOTOS_ANULADOS_APU_SEP",
+          "HH_ULTIMA_TOTALIZACAO",
+          "DT_ULTIMA_TOTALIZACAO"
+        ],
+        "rows": 92,
+        "presidential_rows": 0,
+        "presidential_ufs": []
+      }
+    }
+  },
+  "crosswalk_rows": 5571,
+  "ibge_schema": {
+    "columns": [
+      "CD_MUN",
+      "NM_MUN",
+      "CD_RGI",
+      "NM_RGI",
+      "CD_RGINT",
+      "NM_RGINT",
+      "CD_UF",
+      "NM_UF",
+      "SIGLA_UF",
+      "CD_REGIAO",
+      "NM_REGIAO",
+      "SIGLA_RG",
+      "CD_CONCURB",
+      "NM_CONCURB",
+      "AREA_KM2",
+      "geometry"
+    ],
+    "features": 5573,
+    "crs": "EPSG:4674",
+    "invalid": 0
+  }
+}

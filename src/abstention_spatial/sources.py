@@ -23,6 +23,12 @@ OFFICIAL_ARCHIVES: dict[str, str] = {
         )
         for year in (2014, 2018, 2022, 2026)
     },
+    **{
+        f"tse-sections-{year}": (
+            f"{TSE_BASE}/detalhe_votacao_secao/detalhe_votacao_secao_{year}.zip"
+        )
+        for year in (2014, 2018, 2022, 2026)
+    },
     "tse-ibge-crosswalk": f"{TSE_BASE}/municipio_tse_ibge/municipio_tse_ibge.zip",
     "ibge-municipalities-2025": f"{IBGE_BASE}/BR_Municipios_2025.zip",
 }
@@ -93,13 +99,17 @@ def download_official(
                 os.fsync(stream.fileno())
         if total == 0:
             raise ValueError("Empty response from official source")
-        if part.open("rb").read(4)[:2] != b"PK":
+        with part.open("rb") as check:
+            signature = check.read(4)
+        if signature[:2] != b"PK":
             raise ValueError("Official URL did not return a ZIP archive")
         os.replace(part, dest)
     except (OSError, URLError, HTTPError, ValueError):
         part.unlink(missing_ok=True)
         raise
-    return {"name": name, "cached": False, **receipt(dest, source_url=url)}
+    result = {"name": name, "cached": False, **receipt(dest, source_url=url)}
+    save_json(dest.with_suffix(dest.suffix + ".receipt.json"), result)
+    return result
 
 
 def save_json(path: Path, obj: dict) -> None:

@@ -1,0 +1,58 @@
+{
+  "sources": [
+    {
+      "name": "tse-munzona-2014",
+      "cached": false,
+      "filename": "detalhe_votacao_munzona_2014.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2014.zip",
+      "sha256": "f9195f8988edabd5db03fdef31ad33b21ad0f02c75c8a8fa30c468ed5642460a",
+      "size_bytes": 3937094,
+      "observed_at_utc": "2026-10-14T06:34:20.138840+00:00"
+    },
+    {
+      "name": "tse-munzona-2018",
+      "cached": false,
+      "filename": "detalhe_votacao_munzona_2018.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2018.zip",
+      "sha256": "df68c258a2261dff37b379f65ea5f2e8de7b3d824bb2340d8f4830274a3fabb5",
+      "size_bytes": 4269741,
+      "observed_at_utc": "2026-10-14T06:34:20.650977+00:00"
+    },
+    {
+      "name": "tse-munzona-2022",
+      "cached": false,
+      "filename": "detalhe_votacao_munzona_2022.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2022.zip",
+      "sha256": "4f4fb43493c65ebf743b74430f1590343a2bdeca16fc7ab9b80827e8c51eab92",
+      "size_bytes": 4422339,
+      "observed_at_utc": "2026-10-14T06:34:21.158153+00:00"
+    },
+    {
+      "name": "tse-munzona-2026",
+      "cached": false,
+      "filename": "detalhe_votacao_munzona_2026.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_munzona/detalhe_votacao_munzona_2026.zip",
+      "sha256": "0d5a723707c446de17e4fbcffefa408ecb6c8b9642aaf1dc627975258bb3c5b7",
+      "size_bytes": 2502589,
+      "observed_at_utc": "2026-10-14T06:34:21.523024+00:00"
+    },
+    {
+      "name": "tse-ibge-crosswalk",
+      "cached": false,
+      "filename": "municipio_tse_ibge.zip",
+      "source_url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "68328ddc166806594a2aab5809ac9aa602153535d6b8a71e886c337f9f3631ca",
+      "size_bytes": 139031,
+      "observed_at_utc": "2026-10-14T06:34:21.656519+00:00"
+    },
+    {
+      "name": "ibge-municipalities-2025",
+      "cached": false,
+      "filename": "BR_Municipios_2025.zip",
+      "source_url": "https://geoftp.ibge.gov.br/organizacao_do_territorio/malhas_territoriais/malhas_municipais/municipio_2025/Brasil/BR_Municipios_2025.zip",
+      "sha256": "840bbe6f73726ef9d1460ce49fdfe01a278935c41180d3c893e25ca21db083bd",
+      "size_bytes": 237062431,
+      "observed_at_utc": "2026-10-14T06:34:39.831229+00:00"
+    }
+  ]
+}
